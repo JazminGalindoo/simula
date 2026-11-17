@@ -1,0 +1,17 @@
+# App
+streamlit>=1.40
+pandas>=2.2
+pyarrow>=17.0
+
+# Datos ENAHO (.dta de Stata con etiquetas)
+pyreadstat>=1.2
+
+# Mapas
+geopandas>=1.0
+folium>=0.18
+streamlit-folium>=0.23
+
+# IA (Gemini con salidas estructuradas)
+google-genai>=1.0
+pydantic>=2.8
+python-dotenv>=1.0

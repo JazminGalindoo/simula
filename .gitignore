@@ -1,0 +1,24 @@
+# Claves y secretos (NUNCA se suben)
+.env
+.streamlit/secrets.toml
+
+# Microdatos crudos de la ENAHO (pesados y con identificadores)
+datos_crudos/
+
+# Instrucciones internas para Claude Code (no se suben)
+CLAUDE.md
+
+# Caché de llamadas al LLM
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
