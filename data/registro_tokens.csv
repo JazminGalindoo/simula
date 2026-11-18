@@ -1,0 +1,3 @@
+fecha,modelo,tarea,tokens_entrada,tokens_salida,costo_soles,segundos
+2026-11-17T20:10:17,gemini-3.5-flash-lite,simulacion,1975,974,0.010293,4.2
+2026-11-17T20:10:28,gemini-3.5-flash-lite,revisor,228,225,0.002145,2.5
