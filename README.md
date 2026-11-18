@@ -14,7 +14,7 @@ las respuestas, las preguntas que confunden y **cuánto se equivoca, medido cont
 
 ## 2. Founder
 
-<img src="docs/founder.jpg" alt="Jazmín Galindo" width="160">
+<img src="docs/founder.jpeg" alt="Jazmín Galindo" width="160">
 
 **Jazmín Galindo**, estudiante de Economía de la Universidad del Pacífico.
 
