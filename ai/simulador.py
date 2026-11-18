@@ -185,8 +185,9 @@ def simular(pregunta: str, opciones: list[str], hogares: pd.DataFrame,
 
     filas, uso_total = [], {"tokens_entrada": 0, "tokens_salida": 0, "costo_soles": 0.0,
                             "llamadas": 0, "segundos": 0.0}
-    for inicio in range(0, len(hogares), POR_LLAMADA):
-        lote = hogares.iloc[inicio:inicio + POR_LLAMADA]
+
+    def preguntar(lote):
+        """Una llamada para un lote de hogares; agrega sus respuestas a `filas`."""
         fichas = {int(h["id_perfil"]): describir_hogar(h) for _, h in lote.iterrows()}
         resultado, uso = llamar_gemini(SISTEMA_ENCUESTADOS, prompt_encuestados(fichas, pregunta, opciones),
                                        esquema, tarea, usar_cache)
@@ -198,8 +199,17 @@ def simular(pregunta: str, opciones: list[str], hogares: pd.DataFrame,
             uso_total["llamadas"] += 1
             for k in ("tokens_entrada", "tokens_salida", "costo_soles", "segundos"):
                 uso_total[k] += uso[k]
+
+    for inicio in range(0, len(hogares), POR_LLAMADA):
+        preguntar(hogares.iloc[inicio:inicio + POR_LLAMADA])
         if al_avanzar:
             al_avanzar(min(inicio + POR_LLAMADA, len(hogares)), len(hogares))
+
+    # A veces el modelo se salta algún hogar del lote: se los preguntamos una vez más
+    respondidos = {f["id_perfil"] for f in filas}
+    faltan = hogares[~hogares["id_perfil"].isin(respondidos)]
+    if len(faltan):
+        preguntar(faltan)
 
     respuestas = pd.DataFrame(filas).drop_duplicates("id_perfil")
     tabla = hogares.merge(respuestas, on="id_perfil", how="inner")

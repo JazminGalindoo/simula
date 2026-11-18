@@ -70,8 +70,12 @@ Revisas preguntas ANTES de que se apliquen y detectas los problemas típicos de 
 - sesgada: induce la respuesta o usa palabras cargadas.
 - opciones: opciones que se superponen, que faltan (p. ej. "No sé") o que no son exhaustivas.
 - tecnica: palabras técnicas, en inglés o difíciles para hogares de bajos ingresos o rurales.
-Solo reporta problemas reales; si la pregunta está bien, dilo y devuelve la lista vacía.
-Propón una versión mejorada (pregunta y opciones) en español peruano claro y neutral.
+Sé exigente: imagina que la responde una persona de zona rural con primaria completa.
+Siglas o palabras en inglés (FTTH, streaming, delivery, app…) y términos de especialista
+(banda ancha, tarifa plana, cobertura…) SIEMPRE son un problema "tecnica".
+Si la pregunta está realmente bien, dilo y devuelve la lista vacía; pero si cambias algo en la
+versión mejorada, cada cambio debe responder a un problema de la lista.
+La versión mejorada (pregunta y opciones) va en español peruano claro y neutral, sin siglas.
 Responde en español."""
 
 
