@@ -201,3 +201,12 @@ fecha,modelo,tarea,tokens_entrada,tokens_salida,costo_soles,segundos
 2026-11-18T03:20:09,gemini-3.5-flash-lite,validacion400_gas,2318,1134,0.012003,3.3
 2026-11-18T03:20:13,gemini-3.5-flash-lite,validacion400_gas,2345,1212,0.012694,3.7
 2026-11-18T03:20:16,gemini-3.5-flash-lite,validacion400_gas,1921,896,0.009575,3.6
+2026-11-18T03:20:33,gemini-3.5-flash-lite,revisor,312,196,0.001984,2.6
+2026-11-18T03:20:37,gemini-3.5-flash-lite,ejemplo,2381,1244,0.013003,4.3
+2026-11-18T03:20:41,gemini-3.5-flash-lite,ejemplo,2377,1202,0.012642,3.8
+2026-11-18T03:20:45,gemini-3.5-flash-lite,ejemplo,2356,1189,0.01251,3.7
+2026-11-18T03:20:49,gemini-3.5-flash-lite,ejemplo,2388,1188,0.012534,4.2
+2026-11-18T03:20:53,gemini-3.5-flash-lite,ejemplo,2382,1183,0.012485,3.7
+2026-11-18T03:21:05,gemini-3.5-flash-lite,ejemplo,2378,1283,0.013331,5.3
+2026-11-18T03:21:10,gemini-3.5-flash-lite,ejemplo,2357,1269,0.013191,4.7
+2026-11-18T03:21:14,gemini-3.5-flash-lite,ejemplo,2389,1292,0.013419,4.0
