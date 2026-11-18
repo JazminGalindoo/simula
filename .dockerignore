@@ -1,0 +1,11 @@
+# Nada de secretos ni datos pesados dentro de la imagen
+.env
+.git
+.venv
+.cache
+datos_crudos
+CLAUDE.md
+notebooks
+docs
+__pycache__
+*.pyc
