@@ -262,7 +262,7 @@ def grafico_cortes(tabla, opciones, por, orden_segmentos=None):
         order=alt.Order("orden:Q"),
         tooltip=[alt.Tooltip(f"{por}:N", title="Segmento"), alt.Tooltip("respuesta:N", title="Respuesta"),
                  alt.Tooltip("pct:Q", title="%", format=".1f"), alt.Tooltip("n:Q", title="Encuestados")])
-    return estilo(g.properties(height=34 * d[por].nunique() + 40))
+    return estilo(g.properties(height=alt.Step(30)))  # altura por segmento, crece con la cantidad de filas
 
 
 def mostrar_citas(tabla, opciones, k=4, semilla=0):
@@ -391,15 +391,16 @@ def mostrar_resultado(r):
         por = st.selectbox("Cortar por", list(CORTES), key="corte_ab")
         col = CORTES[por]
         ne = pd.concat([t.assign(version=v, ne=(t["respuesta"] == NO_ENTIENDO) * 100.0) for v, t in tablas.items()])
-        ne = ne.groupby([col, "version"])["ne"].agg(["mean", "size"]).reset_index()
+        ne = ne.groupby([col, "version"])["ne"].agg(pct="mean", n="size").reset_index()
         g2 = alt.Chart(ne).encode(y=alt.Y(f"{col}:N", title=None), yOffset="version:N",
-                                  x=alt.X("mean:Q", title=f"% «{NO_ENTIENDO}»"))
-        g2 = g2.mark_bar(cornerRadiusEnd=4, height=12).encode(
+                                  x=alt.X("pct:Q", title=f"% «{NO_ENTIENDO}»"))
+        g2 = g2.mark_bar(cornerRadiusEnd=4).encode(
             color=alt.Color("version:N", scale=alt.Scale(domain=["A", "B"], range=[AZUL, NARANJA]),
                             title=None, legend=alt.Legend(labelExpr="'Versión ' + datum.label")),
             tooltip=[alt.Tooltip(f"{col}:N", title="Segmento"), alt.Tooltip("version:N", title="Versión"),
-                     alt.Tooltip("mean:Q", title="% no entiende", format=".1f"), alt.Tooltip("size:Q", title="Encuestados")])
-        st.altair_chart(estilo(g2.properties(height=40 * ne[col].nunique() + 40)), width="stretch")
+                     alt.Tooltip("pct:Q", title="% no entiende", format=".1f"), alt.Tooltip("n:Q", title="Encuestados")])
+        # Altura por barra (Step): con una altura fija, Streamlit la reparte con la leyenda y las barras se aplastan
+        st.altair_chart(estilo(g2.properties(height=alt.Step(16))), width="stretch")
 
         st.markdown("##### Lo que dicen los encuestados sintéticos")
         ca, cb = st.columns(2)
