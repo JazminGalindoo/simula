@@ -2,7 +2,7 @@
 
 > **Hacemos el piloto de tu encuesta con encuestados sintéticos que responden como hogares peruanos reales, y te decimos cuánto se equivoca la IA porque la medimos contra la ENAHO.**
 
-**Demo:** [URL] · Proyecto final del curso Data Science con Python, Universidad del Pacífico, 2026-II.
+**Demo:** [https://simula-qty4.onrender.com](https://simula-qty4.onrender.com) · Proyecto final del curso Data Science con Python, Universidad del Pacífico, 2026-II.
 
 ---
 
@@ -92,7 +92,11 @@ Por eso Simula **no vende la IA como verdad**: la vende como un **piloto rápido
 
 ## 6. Demo
 
-**App en vivo:** [URL]
+**App en vivo:** [https://simula-qty4.onrender.com](https://simula-qty4.onrender.com)
+
+Desplegada en **Render** (plan gratuito, Docker). Si nadie la usó en los últimos 15 minutos, la primera carga
+tarda alrededor de un minuto mientras el servidor despierta. Para desplegarla de nuevo: `python scripts/desplegar_render.py`
+(lee `RENDER_API_KEY`, `GEMINI_API_KEY` y `GEMINI_MODEL` de `.env` y las carga como variables de entorno del servicio).
 
 ### Capturas
 
@@ -170,7 +174,7 @@ Versión detallada: [docs/arquitectura.md](docs/arquitectura.md).
 - **S/ 29** está en el rango que dieron los estudiantes y cerca de los "unos S/ 30 en general" de la [entrevista 1](docs/research/entrevista_1.md).
 - **El plan Empresa es una hipótesis:** la entrevistada de retail no dio un monto. Lo que sí sabemos es que ya gasta
   en incentivos por cada encuesta; falta validar el precio con más empresas y compararlo con ese gasto.
-- **Costo de servidor:** hoy S/ 0 (Streamlit Community Cloud). Es un costo fijo, no por usuario: con un servidor pagado
+- **Costo de servidor:** hoy S/ 0 (plan gratuito de Render). Es un costo fijo, no por usuario: con un servidor pagado
   de unos S/ 100 al mes (supuesto), **5 estudios al mes** lo cubren.
 - El tamaño de cada plan supone la app completa (varias preguntas por estudio). Hoy la app simula una pregunta a la vez.
 
@@ -202,7 +206,7 @@ Versión detallada: [docs/arquitectura.md](docs/arquitectura.md).
 | **LLMs con salidas estructuradas** (08) | [ai/simulador.py](ai/simulador.py) (esquemas Pydantic con opciones cerradas, `_esquema_lote` y `Revision`; reintentos, caché, tokens) y [ai/prompts.py](ai/prompts.py) |
 | **Dashboards con Streamlit** (05) | [app/streamlit_app.py](app/streamlit_app.py): 3 pestañas, métricas, gráficos Altair, descarga CSV, `st.cache_data`, `session_state` |
 | **Mapas con GeoPandas / Folium** (06) | [app/streamlit_app.py](app/streamlit_app.py), pestaña 1: GeoJSON del curso leído con GeoPandas, unido por `FIRST_IDDP` y pintado con `folium.Choropleth` |
-| **Evaluación y despliegue de productos de datos** (12) | [ai/validar.py](ai/validar.py) y [docs/validacion.md](docs/validacion.md) (IA vs ENAHO por segmento); registro de costo en `data/registro_tokens.csv`; despliegue en Streamlit Community Cloud con Secrets y `requirements.txt` fijado |
+| **Evaluación y despliegue de productos de datos** (12) | [ai/validar.py](ai/validar.py) y [docs/validacion.md](docs/validacion.md) (IA vs ENAHO por segmento); registro de costo en `data/registro_tokens.csv`; despliegue con Docker en Render ([Dockerfile](Dockerfile), [scripts/desplegar_render.py](scripts/desplegar_render.py)) con las claves como variables de entorno y `requirements.txt` fijado |
 | Preparación y exploración de datos con pandas | [scripts/preparar_perfiles.py](scripts/preparar_perfiles.py): une 4 módulos de la ENAHO, quintiles ponderados y muestra sin identificadores; [notebooks/exploracion_enaho.ipynb](notebooks/exploracion_enaho.ipynb): verificación de cada variable y comparación con el INEI |
 
 ## 9. Qué hizo el agente (y qué hice yo)

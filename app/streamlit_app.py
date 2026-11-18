@@ -1,5 +1,5 @@
 """
-Simula — app de Streamlit (punto de entrada para Streamlit Community Cloud).
+Simula — app de Streamlit (punto de entrada; se despliega con Docker en Render, ver Dockerfile).
 
 Tres pestañas:
   1. ¿Cuánto se equivoca la IA en el Perú?  → resultados precalculados de ai/validar.py (sin llamar al LLM)
@@ -27,7 +27,8 @@ sys.path.insert(0, str(RAIZ))  # para poder importar ai/
 
 st.set_page_config(page_title="Simula", page_icon="📋", layout="wide")
 
-# En Streamlit Cloud la clave viene de Secrets; en local, de .env (lo lee ai/simulador.py)
+# En el servidor la clave llega como variable de entorno (o desde st.secrets si se usa Streamlit Cloud);
+# en local, de .env (lo lee ai/simulador.py)
 try:
     for clave in ("GEMINI_API_KEY", "GEMINI_MODEL"):
         if clave in st.secrets:

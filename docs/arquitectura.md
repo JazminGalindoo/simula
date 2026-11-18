@@ -22,7 +22,7 @@ flowchart LR
         PROM --> SIM <--> GEM
     end
 
-    subgraph app["3 · App · app/streamlit_app.py (Streamlit Cloud)"]
+    subgraph app["3 · App · app/streamlit_app.py (Docker en Render)"]
         T1["Pestaña 1<br/>¿Cuánto se equivoca la IA?<br/>gráficos + mapa Folium"]
         T2["Pestaña 2<br/>Prueba tu pregunta<br/>revisor · simulación · A/B · CSV"]
         T3["Pestaña 3<br/>Cómo funciona<br/>costo real por tokens"]

@@ -106,7 +106,7 @@ def _anotar_tokens(tarea: str, entrada: int, salida: int, segundos: float):
         "fecha": datetime.now().isoformat(timespec="seconds"), "modelo": MODELO, "tarea": tarea,
         "tokens_entrada": entrada, "tokens_salida": salida,
         "costo_soles": round(costo_soles(entrada, salida), 6), "segundos": round(segundos, 1)}])
-    try:  # en Streamlit Cloud el disco puede ser de solo lectura: no es grave si falla
+    try:  # en algunos servidores el disco es de solo lectura o se borra al reiniciar: no es grave si falla
         fila.to_csv(REGISTRO, mode="a", header=not REGISTRO.exists(), index=False)
     except OSError:
         pass
