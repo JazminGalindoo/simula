@@ -1,0 +1,997 @@
+id_perfil,departamento_cod,departamento,dominio,area,quintil_gasto,pobreza,pregunta,texto_pregunta,real,sintetico,justificacion
+673,20,Piura,Costa norte,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En mi casa todos usamos celular para comunicarnos.
+1252,06,Cajamarca,Selva,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para llamadas.
+2942,07,Callao,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la familia tenemos smartphones.
+279,12,Junín,Sierra centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos y yo tenemos celular.
+1453,12,Junín,Sierra centro,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con celulares para el trabajo y estudio.
+2961,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Ambos tenemos teléfonos inteligentes modernos.
+608,13,La Libertad,Costa norte,Urbano,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,0,No tengo dinero para comprar un celular ni pagar recargas.
+2725,24,Tumbes,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos smartphones con internet en casa.
+1662,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos me regalaron un celular.
+2325,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en el hogar usamos teléfono móvil.
+925,12,Junín,Sierra centro,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mi esposo y yo usamos celular para el negocio.
+1204,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Cada miembro de la familia tiene su propio celular.
+911,08,Cusco,Sierra sur,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,Vivo solo y no sé usar esas cosas modernas.
+2667,05,Ayacucho,Sierra centro,Rural,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,0,"A mi edad no necesito celular, vivo solo en el campo."
+147,12,Junín,Sierra centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos celulares para estar comunicados todo el día.
+1341,08,Cusco,Sierra sur,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la familia todos tenemos celular.
+1672,02,Áncash,Sierra centro,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Necesitamos el celular para las llamadas y coordinar el campo.
+1099,12,Junín,Selva,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Ambos tenemos teléfonos inteligentes con datos.
+2036,15,Lima,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la casa tenemos línea y celular.
+2768,06,Cajamarca,Sierra norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con celulares para el trabajo.
+90,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Trabajo con mi smartphone todo el día.
+380,02,Áncash,Sierra centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos y nosotros tenemos celular.
+715,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,0,No alcanza para comprar un celular ni para recargas.
+1896,06,Cajamarca,Sierra norte,Rural,1,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular básico para recibir llamadas.
+725,21,Puno,Sierra sur,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Usamos el celular para comunicarnos con los familiares.
+2914,18,Moquegua,Costa sur,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo celular propio para mi trabajo diario y comunicarme.
+473,22,San Martín,Selva,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa usamos un celular para las llamadas necesarias.
+141,08,Cusco,Sierra sur,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para hablar con mis hijos.
+1425,14,Lambayeque,Costa norte,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos mayores y yo tenemos celular para estar comunicados.
+2005,13,La Libertad,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la casa tenemos teléfonos inteligentes modernos.
+2627,02,Áncash,Costa centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con un celular en la familia para emergencias.
+2006,01,Amazonas,Sierra norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos celular para coordinar el negocio y la familia.
+1550,10,Huánuco,Sierra centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mi celular es indispensable para mis estudios y contactos.
+1420,02,Áncash,Sierra centro,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A pesar de todo, un celular básico sí tenemos para avisar."
+784,10,Huánuco,Sierra centro,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular compartido para recibir llamadas.
+1522,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi smartphone para el trabajo y el día a día.
+1704,06,Cajamarca,Sierra norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con celulares propios en el hogar.
+1489,14,Lambayeque,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos celular en la casa para comunicarnos.
+636,08,Cusco,Sierra sur,Rural,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos me compraron un celular para llamarme siempre.
+1362,16,Loreto,Selva,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Usamos el celular para las coordinaciones diarias.
+2823,05,Ayacucho,Sierra centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular sencillo para las llamadas urgentes.
+941,11,Ica,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos celulares para la familia y el negocio.
+70,06,Cajamarca,Sierra norte,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular para comunicarme con mis familiares.
+764,21,Puno,Sierra sur,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En casa tenemos un par de celulares para los chicos.
+652,21,Puno,Sierra sur,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,Vivo solo y no necesito ni tengo teléfono celular.
+622,10,Huánuco,Sierra centro,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos un celular para cualquier emergencia familiar.
+1974,10,Huánuco,Selva,Rural,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico que me regaló mi familia.
+2205,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un teléfono celular para hablar con mis nietos.
+2559,04,Arequipa,Sierra sur,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Alguien tiene un celular viejito para recibir llamadas.
+267,25,Ucayali,Selva,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos buenos celulares en la casa para el trabajo.
+528,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la casa tenemos celular para trabajar y estudiar.
+2937,05,Ayacucho,Selva,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para comunicarme con mis familiares.
+6,07,Callao,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mi esposa y yo usamos teléfonos móviles todos los días.
+1385,02,Áncash,Costa centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En el hogar contamos con celulares para estar comunicados.
+154,15,Lima,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos y nosotros tenemos nuestros celulares propios.
+1922,15,Lima,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular para recibir llamadas de mis hijos.
+2985,25,Ucayali,Selva,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A veces la señal falla, pero sí usamos celular en la chacra."
+1405,12,Junín,Sierra centro,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular sencillo para coordinar mis trabajos del campo.
+1125,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,No tengo dinero para comprar un celular ni para recargas.
+1949,13,La Libertad,Costa norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos me compraron un celular para hablar con la familia.
+1981,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Ajustando el presupuesto, igual pagamos una recarga para el celular."
+1772,17,Madre de Dios,Selva,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa todos manejamos celular para el trabajo diario.
+1743,20,Piura,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un teléfono para recibir llamadas de mis parientes.
+309,06,Cajamarca,Selva,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Necesito el celular para estar comunicado desde la zona.
+2989,16,Loreto,Selva,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la familia cada uno tiene su propio celular.
+1881,08,Cusco,Sierra sur,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Usamos el celular para el trabajo y los estudios.
+724,06,Cajamarca,Sierra norte,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular en la casa para emergencias.
+2724,15,Lima,Lima Metropolitana,Urbano,3,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos celulares para las coordinaciones del día a día.
+524,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un buen smartphone para mis labores diarias.
+1041,12,Junín,Sierra centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Cuento con un celular moderno para mis actividades profesionales.
+1587,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular viejito que compartimos en la familia.
+1110,20,Piura,Costa norte,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con un celular para recibir noticias de los hijos.
+1514,05,Ayacucho,Sierra centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la familia usamos celular para el trabajo y los estudios.
+1422,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos nos dieron un celular para estar comunicados siempre.
+813,14,Lambayeque,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa todos tenemos celular por motivos de trabajo.
+2083,11,Ica,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la casa usamos celular para el trabajo y comunicarnos.
+340,03,Apurímac,Sierra sur,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para recibir llamadas de mis hijos.
+522,06,Cajamarca,Sierra norte,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A veces la señal falla, pero sí tenemos un celular en la casa."
+2451,21,Puno,Sierra sur,Rural,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Mis familiares me compraron un celular para estar comunicados.
+2227,06,Cajamarca,Sierra norte,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,Vivo solo y a mi edad no sé usar esas máquinas modernas.
+851,05,Ayacucho,Sierra centro,Urbano,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Aunque no hay mucho dinero, un celular viejo nos sirve para emergencias."
+2562,08,Cusco,Sierra sur,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En el hogar usamos celular para el negocio y los estudios.
+2197,14,Lambayeque,Sierra norte,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular prepago para llamar a mis familiares en el pueblo.
+2738,22,San Martín,Selva,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Aquí en la chacra igual necesitamos un celular para los encargos.
+865,06,Cajamarca,Sierra norte,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis nietos me dejaron un celular para que los llame.
+717,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en casa tenemos smartphones para trabajar y estudiar.
+2459,22,San Martín,Selva,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Con sacrificio recargamos saldo para tener comunicación con la ciudad.
+2556,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Claro que sí, cada uno en la familia tiene su propio teléfono."
+297,15,Lima,Costa centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con celulares para estar conectados todo el día.
+2903,08,Cusco,Sierra sur,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,Vivo sola y no necesito de esos aparatos en el campo.
+2113,03,Apurímac,Sierra sur,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Usamos el celular para coordinar las labores del campo y la familia.
+178,22,San Martín,Selva,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En una familia grande siempre hay varios celulares.
+1783,22,San Martín,Selva,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular sencillo para las llamadas necesarias.
+2935,09,Huancavelica,Sierra centro,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Al menos un celular tenemos en la casa para cualquier emergencia.
+2772,20,Piura,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Vivo sola pero mi celular es indispensable para mi trabajo diario.
+1822,25,Ucayali,Selva,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí contamos con teléfonos inteligentes para las actividades diarias.
+2658,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos me dieron un celular para estar pendiente de mi salud.
+2796,06,Cajamarca,Sierra norte,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular básico que a veces carga con panel solar.
+929,06,Cajamarca,Sierra norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Trabajo con el celular todo el día por mi cuenta.
+1309,16,Loreto,Selva,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En casa varios tenemos celular aunque sea con recargas.
+981,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular propio para comunicarme todos los días.
+1893,21,Puno,Sierra sur,Rural,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A veces la señal falla, pero mi celular me sirve para llamar a mis hijos."
+1884,15,Lima,Costa centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Uso mi celular para llamadas y enterarme de las noticias.
+1950,14,Lambayeque,Costa norte,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa mis hijos y yo tenemos celular.
+1769,12,Junín,Selva,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,0,Soy sola y no sé usar esas maquinitas modernas.
+1424,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mi esposo y yo usamos celular para el trabajo.
+2754,08,Cusco,Sierra sur,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para hablar con la familia.
+2025,22,San Martín,Selva,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Claro que sí, es necesario para el día a día."
+1281,21,Puno,Sierra sur,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un smartphone moderno por mi trabajo.
+2080,08,Cusco,Sierra sur,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Cuento con mi celular para recibir llamadas del pueblo.
+2844,01,Amazonas,Sierra norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos me regalaron un celular para comunicarnos.
+168,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la familia tenemos un celular prepago.
+1208,10,Huánuco,Selva,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Aquí en la chacra igual usamos celular cuando hay señal.
+486,14,Lambayeque,Costa norte,Urbano,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,0,No tengo plata para recargas ni para comprar teléfono.
+2803,07,Callao,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Mis nietos me enseñaron a usar el celular.
+2043,13,La Libertad,Costa norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos para coordinar las cosas de la casa.
+2046,24,Tumbes,Costa norte,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En casa varios tenemos teléfono celular.
+1731,04,Arequipa,Costa sur,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Uso mi celular diariamente para mis asuntos.
+214,14,Lambayeque,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, el celular es indispensable hoy en día."
+2653,13,La Libertad,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi teléfono personal siempre conmigo.
+2546,06,Cajamarca,Sierra norte,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Tengo mi celular para llamar a mis familiares.
+761,08,Cusco,Sierra sur,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En mi hogar tenemos celulares para estar comunicados.
+1032,20,Piura,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Uso mi smartphone para trabajar y contactar clientes.
+1417,06,Cajamarca,Sierra norte,Urbano,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A pesar de las deudas, un celular viejito tenemos."
+2959,15,Lima,Costa centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la familia usamos celular.
+575,05,Ayacucho,Sierra centro,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la casa usamos celular para comunicarnos.
+1469,11,Ica,Costa centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular para hablar con mis hijos.
+2315,07,Callao,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la familia todos tenemos teléfono celular.
+2334,04,Arequipa,Sierra sur,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con smartphones para el trabajo y estudio.
+1712,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Trabajo todo el día con mi celular.
+1494,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un buen equipo móvil por mi trabajo.
+1987,14,Lambayeque,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis familiares me compraron un celular para llamarnos.
+906,22,San Martín,Selva,Rural,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para emergencias en el campo.
+562,12,Junín,Selva,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Lo uso todos los días para mi negocio.
+873,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,A veces hay señal y usamos un celular compartido.
+1998,22,San Martín,Selva,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Siempre tengo mi celular a la mano.
+913,21,Puno,Sierra sur,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En casa todos tenemos un celular propio.
+716,04,Arequipa,Sierra sur,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con líneas móviles en la familia.
+509,20,Piura,Costa norte,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mis hijos necesitan el celular para sus cosas.
+2502,10,Huánuco,Sierra centro,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,0,No nos alcanza para comprar un teléfono y pagar recargas.
+576,14,Lambayeque,Costa norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Tengo mi celular para recibir llamadas de mis familiares.
+1779,10,Huánuco,Selva,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos un celular sencillo para estar comunicados.
+2476,20,Piura,Costa norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa usamos celular por los chicos y el trabajo.
+1918,12,Junín,Sierra centro,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Al menos uno de nosotros tiene celular para el pueblo.
+2466,12,Junín,Selva,Rural,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Compramos recargas para estar comunicados con la ciudad.
+523,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la familia tenemos nuestros propios equipos.
+2949,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,A mi edad no sé usar eso ni tengo dinero.
+370,21,Puno,Sierra sur,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Necesito el celular para mis labores profesionales.
+2133,12,Junín,Sierra centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Los muchachos y nosotros usamos celular todos los días.
+2259,13,La Libertad,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular para mis contratitos y llamadas.
+1574,14,Lambayeque,Costa norte,Rural,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Tengo mi celular básico para llamar a mis hijos.
+353,04,Arequipa,Sierra sur,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa todos tenemos celular para comunicarnos.
+550,07,Callao,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí contamos con teléfonos celulares en la familia.
+389,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Usamos el celular para el trabajo diario.
+1263,11,Ica,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con smartphones modernos para las actividades.
+2916,22,San Martín,Selva,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Mi esposa y yo usamos celular para las llamadas.
+2159,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi smartphone siempre conmigo por el trabajo.
+985,20,Piura,Costa norte,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A pesar de todo, un celular básico sí tenemos."
+2581,12,Junín,Selva,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tengo mi celular para los estudios y llamadas.
+461,13,La Libertad,Costa norte,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, en el hogar usamos celulares."
+2605,06,Cajamarca,Sierra norte,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos celular para estar comunicados.
+1624,08,Cusco,Sierra sur,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, todos en la casa tenemos celular."
+1048,08,Cusco,Sierra sur,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Algunos de mis hijos y yo tenemos celular.
+2011,08,Cusco,Sierra sur,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, mis hijos y yo usamos celular."
+497,13,La Libertad,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí contamos con equipos móviles en la casa.
+2631,15,Lima,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, el celular es necesario hoy en día."
+2609,03,Apurímac,Sierra sur,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, los chicos necesitan para sus cosas."
+2028,15,Lima,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, para el trabajo siempre usamos celular."
+2921,05,Ayacucho,Sierra centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, tengo mi teléfono para mis coordinaciones."
+479,23,Tacna,Costa sur,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí hay un celular sencillo para emergencias.
+567,12,Junín,Sierra centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Mis familiares me compraron un celular para llamarme.
+854,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí hay un celular en la casa para llamadas.
+334,10,Huánuco,Sierra centro,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular viejito para cualquier llamada.
+2360,16,Loreto,Selva,Urbano,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Sí tenemos un celular básico.
+2971,24,Tumbes,Costa norte,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí, contamos con un celular."
+321,02,Áncash,Sierra centro,Rural,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular para comunicarme con mis hijos que viven lejos.
+8,02,Áncash,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la casa usamos celular para el trabajo y estudios.
+758,08,Cusco,Sierra sur,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Trabajo todo el día y el celular es indispensable para mí.
+2972,09,Huancavelica,Sierra centro,Urbano,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la familia varios tenemos celular para las llamadas y tareas.
+1923,15,Lima,Lima Metropolitana,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En casa cada uno cuenta con su propio teléfono móvil.
+645,20,Piura,Costa norte,Rural,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Usamos el celular para coordinar la chamba y hablar con la familia.
+349,05,Ayacucho,Sierra centro,Urbano,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular para recibir llamadas de mis familiares y clientes.
+74,22,San Martín,Selva,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Contamos con celulares para estar comunicados todo el tiempo aquí.
+2874,14,Lambayeque,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"Sí tenemos, los chicos usan para el estudio y yo para el trabajo."
+1465,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,"A pesar de los apuros, el celular es necesario para buscar trabajo."
+205,12,Junín,Sierra centro,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En el hogar tenemos aparatos móviles para las emergencias y el colegio.
+613,03,Apurímac,Sierra sur,Rural,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,A veces hay señal y tengo un celular básico para llamadas.
+658,15,Lima,Lima Metropolitana,Urbano,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Para buscar cachuelos siempre llevamos un celular viejito.
+79,15,Lima,Costa centro,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi smartphone para ver mis cosas y llamar a mis amistades.
+823,06,Cajamarca,Selva,Urbano,1,Pobre extremo,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,"Aunque somos pobres, un celular viejito tenemos para comunicarnos."
+2462,05,Ayacucho,Sierra centro,Rural,2,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,0,1,Un vecino me vendió un celular sencillito para recibir llamadas.
+84,15,Lima,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Todos en la familia tenemos teléfono celular.
+590,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,0,0,No sé usar esas cosas modernas y aquí en el campo ni llega bien.
+116,15,Lima,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En una familia grande varios trabajamos y cada uno tiene su celular.
+2689,01,Amazonas,Selva,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo mi celular para coordinar mis negocios y ver a la familia.
+2512,08,Cusco,Sierra sur,Rural,3,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular básico para hablar con mis familiares cuando viajan.
+596,13,La Libertad,Costa norte,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Uso mi celular para mantenerme en contacto con mis hijos.
+2374,15,Lima,Lima Metropolitana,Urbano,4,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tenemos celulares en casa para estar comunicados con los hijos.
+2597,14,Lambayeque,Costa norte,Urbano,5,No pobre,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,En la casa todos contamos con un teléfono celular.
+1800,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,celular,¿En tu hogar alguien tiene teléfono celular?,1,1,Tengo un celular sencillito para llamar a mi esposo cuando sale.
+673,20,Piura,Costa norte,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En la zona rural no llega el cable.
+1252,06,Cajamarca,Selva,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Solo usamos datos en el celular por mis años.
+2942,07,Callao,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet en casa para los nietos.
+279,12,Junín,Sierra centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pagamos el paquete básico de internet y cable.
+1453,12,Junín,Sierra centro,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,El dinero no alcanza para contratar internet fijo.
+2961,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos internet rápido para trabajar desde casa.
+608,13,La Libertad,Costa norte,Urbano,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Apenas tenemos para comer, peor pagar internet."
+2725,24,Tumbes,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Necesitamos buena conexión para nuestros estudios y trabajo.
+1662,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo internet fijo porque la familia lo usa.
+2325,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos dúo de internet y cable para la casa.
+925,12,Junín,Sierra centro,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por aquí no hay servicio de internet fijo.
+1204,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet en casa por los chicos y el trabajo.
+911,08,Cusco,Sierra sur,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo y no sé usar esas cosas.
+2667,05,Ayacucho,Sierra centro,Rural,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo en el campo y no necesito internet.
+147,12,Junín,Sierra centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Los muchachos necesitan internet para sus tareas del colegio.
+1341,08,Cusco,Sierra sur,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos internet para los estudios de mis hijos.
+1672,02,Áncash,Sierra centro,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo no hay cobertura de internet fijo.
+1099,12,Junín,Selva,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pagamos internet fijo para estar comunicados.
+2036,15,Lima,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tenemos wifi porque todos en la casa lo usamos.
+2768,06,Cajamarca,Sierra norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contraté internet para mis actividades diarias.
+90,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo indispensable para mi trabajo profesional.
+380,02,Áncash,Sierra centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contamos con internet por cable en la vivienda.
+715,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No hay dinero ni cobertura para esas cosas.
+1896,06,Cajamarca,Sierra norte,Rural,1,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No nos alcanza para pagar internet todos los meses.
+725,21,Puno,Sierra sur,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Aquí en la comunidad rural no hay internet.
+2914,18,Moquegua,Costa sur,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo internet fijo en casa porque necesito trabajar y mis ingresos me lo permiten.
+473,22,San Martín,Selva,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta zona rural de la selva no llega el servicio de internet fijo.
+141,08,Cusco,Sierra sur,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo en el campo y por aquí no hay cobertura de cable ni wifi.
+1425,14,Lambayeque,Costa norte,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Contratamos un servicio básico de internet para que los chicos hagan sus tareas.
+2005,13,La Libertad,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Contamos con internet de alta velocidad porque todos en la casa lo usamos.
+2627,02,Áncash,Costa centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,"Sí tenemos internet en casa, nos sirve bastante para el día a día."
+2006,01,Amazonas,Sierra norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo contratado para que la familia esté conectada.
+1550,10,Huánuco,Sierra centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,"Como vivo solo y trabajo, pagar internet fijo es indispensable para mí."
+1420,02,Áncash,Sierra centro,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"No nos alcanza para pagar internet, apenas tenemos para lo necesario."
+784,10,Huánuco,Sierra centro,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo no contamos con ese servicio de internet en la casa.
+1522,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pago mi internet fijo mensual porque lo necesito para mis cosas personales.
+1704,06,Cajamarca,Sierra norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo buen internet en casa ya que estudié y me es necesario.
+1489,14,Lambayeque,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet fijo en casa para estar comunicados y ver algunas cosas.
+636,08,Cusco,Sierra sur,Rural,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Ya soy mayor y vivendo en el campo no usamos internet fijo.
+1362,16,Loreto,Selva,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Por aquí el internet fijo es malo y caro, mejor usamos datos del celular."
+2823,05,Ayacucho,Sierra centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"No tengo internet fijo, solo usamos recargas en el celular cuando se puede."
+941,11,Ica,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Contamos con un paquete de internet fijo para la casa y la familia.
+70,06,Cajamarca,Sierra norte,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta zona rural no hay operadores que instalen internet fijo.
+764,21,Puno,Sierra sur,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet en casa para que los hijos puedan estudiar y hacer tareas.
+652,21,Puno,Sierra sur,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo en el campo y no necesito ni tengo dinero para internet.
+622,10,Huánuco,Sierra centro,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No pagamos internet fijo porque el presupuesto no da para tanto.
+1974,10,Huánuco,Selva,Rural,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta parte de la selva no llega esa tecnología de internet.
+2205,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo en casa para leer las noticias y mantenerme informado.
+2559,04,Arequipa,Sierra sur,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"A las 69 años y en el campo, el internet fijo no es una prioridad."
+267,25,Ucayali,Selva,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo un buen servicio de internet fijo en la ciudad porque lo requiero.
+528,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo internet fijo porque en Lima es necesario para el estudio y trabajo.
+2937,05,Ayacucho,Selva,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Solo usamos datos móviles en el celular porque el servicio fijo es caro.
+6,07,Callao,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Contratamos internet fijo para ver televisión y estar comunicados con la familia.
+1385,02,Áncash,Costa centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Pagamos un paquete de internet fijo mensual para las tareas de la casa.
+154,15,Lima,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet en casa para que los muchachos hagan sus trabajos.
+1922,15,Lima,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo en casa para ver mis noticias y recibir llamadas.
+2985,25,Ucayali,Selva,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por aquí en la zona rural no llega el cable de internet fijo.
+1405,12,Junín,Sierra centro,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"En el campo no hay instalación de internet fijo, solo usamos recargas."
+1125,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Apenas alcanza para comer, no tenemos dinero para pagar internet."
+1949,13,La Libertad,Costa norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"No necesitamos internet fijo, con el saldo del celular nos basta."
+1981,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,El presupuesto no alcanza para pagar un recibo mensual de internet.
+1772,17,Madre de Dios,Selva,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos un servicio básico de internet fijo para el hogar.
+1743,20,Piura,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet fijo para estar conectados con los hijos que viven lejos.
+309,06,Cajamarca,Selva,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo y me manejo con los datos del celular nomás.
+2989,16,Loreto,Selva,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet fijo en casa contratado con la operadora local.
+1881,08,Cusco,Sierra sur,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Necesito el internet fijo en casa para temas de trabajo y estudio.
+724,06,Cajamarca,Sierra norte,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No nos sobra el dinero para pagar un servicio de internet mensual.
+2724,15,Lima,Lima Metropolitana,Urbano,3,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Prefiero gastar en la comida antes que pagar internet fijo.
+524,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pago mi servicio de internet fijo porque vivo solo y lo uso bastante.
+1041,12,Junín,Sierra centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet de alta velocidad en casa para mis actividades profesionales.
+1587,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta comunidad rural no hay cómo tener internet fijo.
+1110,20,Piura,Costa norte,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por el campo no hay antenas ni cables para poner internet fijo.
+1514,05,Ayacucho,Sierra centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet fijo en casa para los chicos que estudian en el colegio.
+1422,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos internet fijo para ver películas y estar entretenidos.
+813,14,Lambayeque,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tenemos internet fijo con cable para la familia y las tareas.
+2083,11,Ica,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo buen ingreso y contraté internet para la familia.
+340,03,Apurímac,Sierra sur,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Solo usamos datos móviles en el celular cuando se puede.
+522,06,Cajamarca,Sierra norte,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo no llega ninguna empresa de cable o internet.
+2451,21,Puno,Sierra sur,Rural,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Somos mayores y no necesitamos internet fijo en la casa.
+2227,06,Cajamarca,Sierra norte,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo y apenas alcanzo para mis gastos básicos.
+851,05,Ayacucho,Sierra centro,Urbano,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No hay dinero para pagar internet con lo poco que ganamos.
+2562,08,Cusco,Sierra sur,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contraté internet para que los chicos hagan sus tareas.
+2197,14,Lambayeque,Sierra norte,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por aquí no hay cobertura de internet fijo.
+2738,22,San Martín,Selva,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta zona rural no hay servicio de internet en casa.
+865,06,Cajamarca,Sierra norte,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,A mi edad no sé usar eso y no hay dinero.
+717,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Necesitamos internet rápido en casa para trabajar y estudiar.
+2459,22,San Martín,Selva,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No alcanza el dinero para pagar un servicio mensual de internet.
+2556,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Pagamos un plan completo de internet y cable en casa.
+297,15,Lima,Costa centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet básico contratado para la familia.
+2903,08,Cusco,Sierra sur,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo sola en el campo y no tengo computadora ni internet.
+2113,03,Apurímac,Sierra sur,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No hay red de internet fijo en esta comunidad.
+178,22,San Martín,Selva,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,"Con varios en casa, tuvimos que contratar internet fijo."
+1783,22,San Martín,Selva,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Solo usamos el celular recargando saldo cuando se necesita.
+2935,09,Huancavelica,Sierra centro,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Acá en la comunidad rural no hay esos servicios.
+2772,20,Piura,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo porque lo uso para mis cosas personales.
+1822,25,Ucayali,Selva,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo en casa para mis trabajos y estudios.
+2658,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,El dinero apenas alcanza para la comida y los servicios.
+2796,06,Cajamarca,Sierra norte,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo no contamos con este servicio.
+929,06,Cajamarca,Sierra norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Trabajo desde casa y necesito un buen internet fijo.
+1309,16,Loreto,Selva,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Somos muchos en la casa y no podemos pagar internet.
+981,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Vivo en Lima y tengo internet para mis cosas diarias.
+1893,21,Puno,Sierra sur,Rural,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo de Puno no hay esas comodidades.
+1884,15,Lima,Costa centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contrato internet porque necesito estar comunicada en la ciudad.
+1950,14,Lambayeque,Costa norte,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No nos alcanza para pagar internet fijo todos los meses.
+1769,12,Junín,Selva,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Soy sola y mayor, no sé usar ni necesito internet."
+1424,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Hago el esfuerzo por los chicos y sus tareas del colegio.
+2754,08,Cusco,Sierra sur,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por aquí en la comunidad rural no llega el cable.
+2025,22,San Martín,Selva,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet en casa para que los muchachos estudien.
+1281,21,Puno,Sierra sur,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Trabajo y necesito buena conexión en casa.
+2080,08,Cusco,Sierra sur,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo en el campo y no uso esas tecnologías.
+2844,01,Amazonas,Sierra norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,A mi edad no necesito internet fijo en casa.
+168,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,El dinero está ajustado y el internet es un lujo.
+1208,10,Huánuco,Selva,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta zona rural de Huánuco no hay red fija.
+486,14,Lambayeque,Costa norte,Urbano,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Apenas tenemos para comer, peor vamos a pagar internet."
+2803,07,Callao,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Soy mayor y no acostumbro usar internet en la casa.
+2043,13,La Libertad,Costa norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contraté internet para la familia y los chicos.
+2046,24,Tumbes,Costa norte,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Gastamos lo justo y el servicio es muy caro.
+1731,04,Arequipa,Costa sur,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo para leer mis noticias y estar conectado.
+214,14,Lambayeque,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Puse internet porque mis hijos lo necesitan para el estudio.
+2653,13,La Libertad,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Vivo solo pero requiero internet rápido para mis cosas.
+2546,06,Cajamarca,Sierra norte,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por aquí arriba en la sierra no hay esas instalaciones.
+761,08,Cusco,Sierra sur,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Hacemos un esfuerzo para pagar el internet de los niños.
+1032,20,Piura,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pago mi internet porque me sirve para mis actividades.
+1417,06,Cajamarca,Sierra norte,Urbano,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Somos varios en casa y no podemos pagar internet.
+2959,15,Lima,Costa centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tenemos internet en casa para que los hijos hagan trabajos.
+575,05,Ayacucho,Sierra centro,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Ajustamos los gastos para comer y no alcanza para internet.
+1469,11,Ica,Costa centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet en casa para ver mis novelas.
+2315,07,Callao,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Mis hijos necesitan el internet para hacer sus tareas.
+2334,04,Arequipa,Sierra sur,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Contraté un buen paquete de internet para trabajar.
+1712,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Vivo solo y necesito internet rápido para trabajar.
+1494,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Pago un internet veloz porque trabajo desde casa.
+1987,14,Lambayeque,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo para estar comunicada con la familia.
+906,22,San Martín,Selva,Rural,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo por aquí no llega el cable.
+562,12,Junín,Selva,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Puse internet en mi cuarto para mis ratos libres.
+873,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En mi comunidad rural no hay servicio de internet.
+1998,22,San Martín,Selva,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo wifi instalado para mis trámites y familia.
+913,21,Puno,Sierra sur,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Compramos internet básico para que los chicos estudien.
+716,04,Arequipa,Sierra sur,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tenemos internet de alta velocidad para la casa.
+509,20,Piura,Costa norte,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,El dinero apenas alcanza y el internet es caro.
+2502,10,Huánuco,Sierra centro,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En nuestra chacra no hay esas comodidades.
+576,14,Lambayeque,Costa norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pagué el cable con internet para distraerme.
+1779,10,Huánuco,Selva,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No tengo plata para pagar un recibo mensual.
+2476,20,Piura,Costa norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Puse internet económico para las tareas del colegio.
+1918,12,Junín,Sierra centro,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,0,Por aquí arriba no llega la señal de cable.
+2466,12,Junín,Selva,Rural,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivimos lejos y el internet fijo no llega.
+523,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo el mejor plan de internet para la familia.
+2949,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,A mi edad no sé usar eso y vivo solo.
+370,21,Puno,Sierra sur,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Necesito internet fijo para mis cosas profesionales.
+2133,12,Junín,Sierra centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Juntamos entre todos para pagar el wifi mensual.
+2259,13,La Libertad,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contraté internet para ver mis películas.
+1574,14,Lambayeque,Costa norte,Rural,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,0,Vivo sola en el campo y aquí no llega el internet fijo.
+353,04,Arequipa,Sierra sur,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Necesitamos internet en casa para que mis hijos hagan sus tareas.
+550,07,Callao,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,"Contratamos un trío de internet, teléfono y cable para la familia."
+389,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Solo usamos datos prepago en el celular cuando es muy necesario.
+1263,11,Ica,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo internet de alta velocidad porque trabajo desde casa a veces.
+2916,22,San Martín,Selva,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos el cable con internet incluido para estar comunicados.
+2159,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Trabajo profesionalmente y requiero una buena conexión de internet fijo.
+985,20,Piura,Costa norte,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"El dinero apenas alcanza para la comida, no podemos pagar internet."
+2581,12,Junín,Selva,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pongo internet fijo para poder estudiar mis cursos de la universidad.
+461,13,La Libertad,Costa norte,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet en casa porque lo uso bastante para mis labores.
+2605,06,Cajamarca,Sierra norte,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Pagamos un paquete económico de internet para ver las redes sociales.
+1624,08,Cusco,Sierra sur,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos wifi para estar conectados todo el tiempo en casa.
+1048,08,Cusco,Sierra sur,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta zona rural no hay cobertura para poner internet fijo.
+2011,08,Cusco,Sierra sur,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet en casa por los chicos y sus estudios.
+497,13,La Libertad,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Pagamos el servicio de internet fijo mensual para la casa.
+2631,15,Lima,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Sí contamos con internet fijo para el entretenimiento de mis hijos.
+2609,03,Apurímac,Sierra sur,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Gastamos lo justo en la familia y el internet fijo es un lujo.
+2028,15,Lima,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Hicimos un esfuerzo para poner internet fijo para los muchachos.
+2921,05,Ayacucho,Sierra centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contamos con internet fijo para mis trabajos técnicos y personales.
+479,23,Tacna,Costa sur,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No nos alcanza para pagar un servicio de internet todos los meses.
+567,12,Junín,Sierra centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"A mi edad no uso esas tecnologías, solo veo la televisión."
+854,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,0,Somos muchos en la casa y el presupuesto no da para internet.
+334,10,Huánuco,Sierra centro,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Con lo poco que gano apenas comemos, no hay para internet."
+2360,16,Loreto,Selva,Urbano,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"No tenemos internet fijo, solo recargo mi celular cuando se puede."
+2971,24,Tumbes,Costa norte,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,0,Acá en el campo no llega la señal para internet fijo.
+321,02,Áncash,Sierra centro,Rural,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Vivo solo en el campo y por aquí no llega internet fijo.
+8,02,Áncash,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet en casa para el trabajo y los estudios.
+758,08,Cusco,Sierra sur,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contrato internet rápido para trabajar desde mi depa.
+2972,09,Huancavelica,Sierra centro,Urbano,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Somos muchos en casa y el presupuesto no alcanza para wifi.
+1923,15,Lima,Lima Metropolitana,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Pagamos un paquete de internet fijo mensual para la familia.
+645,20,Piura,Costa norte,Rural,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En esta zona rural usamos puros datos móviles.
+349,05,Ayacucho,Sierra centro,Urbano,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo instalado para estar conectada.
+74,22,San Martín,Selva,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contraté un servicio básico de internet para la casa.
+2874,14,Lambayeque,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo wifi en casa porque mis hijos necesitan estudiar.
+1465,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"A las justa llegamos a fin de mes, el internet fijo es un lujo."
+205,12,Junín,Sierra centro,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tenemos internet en casa para los chicos y sus tareas.
+613,03,Apurímac,Sierra sur,Rural,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Apenas tenemos para comer, ¿cómo vamos a pagar internet?"
+658,15,Lima,Lima Metropolitana,Urbano,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"No tengo dinero para pagar internet fijo, usamos recargas."
+79,15,Lima,Costa centro,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo en mi departamento para mis cosas.
+823,06,Cajamarca,Selva,Urbano,1,Pobre extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,Por aquí no hay servicio y tampoco hay plata.
+2462,05,Ayacucho,Sierra centro,Rural,2,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,"Vivo sola y viejita, no necesito internet fijo."
+84,15,Lima,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tengo wifi instalado en casa para toda la familia.
+590,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En el campo no usamos esas cosas de internet.
+116,15,Lima,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,"Pagamos un trío de internet, teléfono y cable."
+2689,01,Amazonas,Selva,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo para estar comunicada.
+2512,08,Cusco,Sierra sur,Rural,3,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,En nuestra comunidad no hay cobertura de internet fijo.
+596,13,La Libertad,Costa norte,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Tengo internet fijo para cuando vienen mis nietos.
+2374,15,Lima,Lima Metropolitana,Urbano,4,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,1,Contratamos internet fijo básico para la casa.
+2597,14,Lambayeque,Costa norte,Urbano,5,No pobre,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,1,1,Tenemos wifi en casa porque somos varios en la familia.
+1800,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,internet_fijo,¿Tu hogar tiene internet fijo (wifi o cable)?,0,0,No nos alcanza el dinero para pagar internet en casa.
+673,20,Piura,Costa norte,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,En el campo no llega bien el cable y vemos canales abiertos.
+1252,06,Cajamarca,Selva,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,Prefiero gastar en otras cosas para la casa antes que en cable.
+2942,07,Callao,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos servicio de cable completo para entretenernos en casa.
+279,12,Junín,Sierra centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos un paquete básico de cable para ver las noticias.
+1453,12,Junín,Sierra centro,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No nos alcanza para pagar cable mensual, nos bastamos con la antena."
+2961,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pagamos cable porque nos gusta ver películas y series variadas.
+608,13,La Libertad,Costa norte,Urbano,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apenas tenemos para comer, el cable es un lujo que no conocemos."
+2725,24,Tumbes,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Sí tenemos cable porque mis hijos disfrutan de los canales infantiles.
+1662,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contamos con servicio de cable satelital para ver programación variada.
+2325,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos cable contratado porque en casa todos ven televisión.
+925,12,Junín,Sierra centro,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Acá en la zona rural no hay instalación de cable disponible.
+1204,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos un paquete de cable e internet para toda la familia.
+911,08,Cusco,Sierra sur,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo solo en el campo y no necesito gastar en televisión pagada.
+2667,05,Ayacucho,Sierra centro,Rural,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"A mi edad solo escucho la radio, no veo televisión por cable."
+147,12,Junín,Sierra centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tenemos cable básico para que los muchachos vean sus programas.
+1341,08,Cusco,Sierra sur,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable porque hay promociones buenas en la ciudad.
+1672,02,Áncash,Sierra centro,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Por aquí no pasa ninguna empresa que ofrezca servicio de cable.
+1099,12,Junín,Selva,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tenemos el servicio de cable instalado desde hace varios años.
+2036,15,Lima,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pagamos cable porque mis hijos pequeños quieren ver dibujitos.
+2768,06,Cajamarca,Sierra norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos cable contratado para ver los partidos de fútbol y noticias.
+90,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo cable y streaming porque trabajo bastante y me gusta relajarme.
+380,02,Áncash,Sierra centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable para tener más opciones de entretenimiento en familia.
+715,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No tenemos dinero para pagar cable, apenas para lo indispensable."
+1896,06,Cajamarca,Sierra norte,Rural,1,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En el caserío no hay señal de cable y la plata es justa.
+725,21,Puno,Sierra sur,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No nos alcanza el dinero para pagar cable mensualmente.
+2914,18,Moquegua,Costa sur,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo buen ingreso y contraté cable para ver mis programas.
+473,22,San Martín,Selva,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"En el campo por aquí no llega el cable, solo vemos antena."
+141,08,Cusco,Sierra sur,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo en zona rural y con mi esposa solo escuchamos radio.
+1425,14,Lambayeque,Costa norte,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Con los muchachos en casa pagamos una cajita económica de cable.
+2005,13,La Libertad,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pago el servicio completo de cable por los canales de noticias.
+2627,02,Áncash,Costa centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos cable básico para que los chicos vean sus dibujitos.
+2006,01,Amazonas,Sierra norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,En la ciudad contratamos un servicio económico de cable.
+1550,10,Huánuco,Sierra centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,Vivo solo y como trabajo todo el día no necesito cable.
+1420,02,Áncash,Sierra centro,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Ajustamos para comer, peor sería gastar en cable."
+784,10,Huánuco,Sierra centro,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No alcanza para pagar mensualidad de cable en el campo.
+1522,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Solo uso internet y plataformas de streaming, el cable ya pasó."
+1704,06,Cajamarca,Sierra norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contraté cable satelital para tener buena señal en casa.
+1489,14,Lambayeque,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos el cable básico en combo con el teléfono.
+636,08,Cusco,Sierra sur,Rural,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Aislados en el cerro, el cable no llega ni se necesita."
+1362,16,Loreto,Selva,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Acá en la ciudad contratamos cable pirata para entretenernos.
+2823,05,Ayacucho,Sierra centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Con lo justo vivimos, no hay plata para pagar cable."
+941,11,Ica,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tenemos cable y internet para la familia en la costa.
+70,06,Cajamarca,Sierra norte,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En la chacra no hay esas comodidades de televisión pagada.
+764,21,Puno,Sierra sur,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Juntamos propinas para pagar el cable mensual de los niños.
+652,21,Puno,Sierra sur,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Vivo solo y viejo, para qué quiero pagar cable."
+622,10,Huánuco,Sierra centro,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Solo vemos televisión nacional con antena porque el cable es caro.
+1974,10,Huánuco,Selva,Rural,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En la selva rural no hay servicio de cable satelital.
+2205,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pago un buen servicio de cable para ver mis programas tranquilos.
+2559,04,Arequipa,Sierra sur,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apenas ganamos para la comida, el cable es un lujo."
+267,25,Ucayali,Selva,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo el servicio digital contratado para toda la familia.
+528,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo buen ingreso en Lima y pago cable para mis hijos.
+2937,05,Ayacucho,Selva,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No alcanza para pagar ese servicio mensual en la casa.
+6,07,Callao,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Contrato cable porque me gusta ver noticias y mis series.
+1385,02,Áncash,Costa centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tenemos internet y cable en paquete para la familia.
+154,15,Lima,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos un paquete básico de cable para entretenernos.
+1922,15,Lima,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Vivo solo en Lima y veo mis canales de cable tranquilos.
+2985,25,Ucayali,Selva,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Por aquí en la selva rural no llega señal de cable.
+1405,12,Junín,Sierra centro,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En el campo solo vemos la señal abierta de televisión.
+1125,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apenas tenemos para comer, peor vamos a pagar cable."
+1949,13,La Libertad,Costa norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Prefiero gastar en otras cosas de la casa y no en cable.
+1981,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,El presupuesto es ajustado y no sobra para cable.
+1772,17,Madre de Dios,Selva,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable para que los chicos vean dibujitos.
+1743,20,Piura,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo cable satelital para distraerme en casa.
+309,06,Cajamarca,Selva,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No hay servicio de cable disponible por esta zona.
+2989,16,Loreto,Selva,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pagamos cable local para ver películas y deportes.
+1881,08,Cusco,Sierra sur,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos el servicio de cable contratado con el internet.
+724,06,Cajamarca,Sierra norte,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No nos alcanza el dinero para pagar cable mensual.
+2724,15,Lima,Lima Metropolitana,Urbano,3,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Ajustamos los gastos y el cable no es prioritario.
+524,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pago un servicio completo de cable digital.
+1041,12,Junín,Sierra centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo el mejor servicio de cable y streaming en casa.
+1587,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo en comunidad rural y no contamos con ese servicio.
+1110,20,Piura,Costa norte,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"En el campo no hay cable, solo televisión nacional."
+1514,05,Ayacucho,Sierra centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable económico para los niños.
+1422,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Con mi esposa pagamos cable para ver películas antiguas.
+813,14,Lambayeque,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos cable en casa para entretener a la familia.
+2083,11,Ica,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo servicio de cable porque en la ciudad lo pagamos mensualmente.
+340,03,Apurímac,Sierra sur,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,"No alcanza para pagar cable, solo vemos señal abierta de televisión."
+522,06,Cajamarca,Sierra norte,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"En el campo no llega el cable, apenas agarra la señal normal."
+2451,21,Puno,Sierra sur,Rural,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivimos tranquilos en la chacra sin necesidad de pagar televisión por cable.
+2227,06,Cajamarca,Sierra norte,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo solo en el campo y no veo mucha televisión.
+851,05,Ayacucho,Sierra centro,Urbano,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apenas tenemos para comer, como vamos a pagar por cable."
+2562,08,Cusco,Sierra sur,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable básico para que los chicos vean sus dibujos.
+2197,14,Lambayeque,Sierra norte,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"En mi caserío no hay esas cosas de cable, apenas la antena."
+2738,22,San Martín,Selva,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,Por aquí no pasa el cable y tampoco hay dinero para eso.
+865,06,Cajamarca,Sierra norte,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Soy sola y muy mayor, no necesito gastar en cable."
+717,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tenemos paquete completo de cable en la casa para toda la familia.
+2459,22,San Martín,Selva,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"En la selva no tenemos cable, solo la antena normal."
+2556,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos el servicio de cable e internet para el hogar.
+297,15,Lima,Costa centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Sí tenemos cable básico para pasar el rato viendo noticias.
+2903,08,Cusco,Sierra sur,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo solita en el cerro y no tengo televisor con cable.
+2113,03,Apurímac,Sierra sur,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Prefiero usar la plata en otras cosas antes que pagar cable.
+178,22,San Martín,Selva,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Conectamos el cable para que los hijos mayores se entretengan.
+1783,22,San Martín,Selva,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Estamos ajustados, el cable es un gasto que no podemos dar."
+2935,09,Huancavelica,Sierra centro,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En mi comunidad rural no hay operador que instale cable.
+2772,20,Piura,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Vivo sola y pago mi cable para ver mis novelas tranquila.
+1822,25,Ucayali,Selva,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable porque en la ciudad ya es necesario para informarse.
+2658,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Con las justas compramos los alimentos, no hay para el cable."
+2796,06,Cajamarca,Sierra norte,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Trabajamos la tierra y por acá no llega ninguna empresa de cable.
+929,06,Cajamarca,Sierra norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo servicio de cable y entretenimiento digital en mi departamento.
+1309,16,Loreto,Selva,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,Somos muchos en la casa y el dinero no alcanza para el cable.
+981,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pago mi cable mensual para ver mis canales favoritos en Lima.
+1893,21,Puno,Sierra sur,Rural,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No hay plata para eso, apenas alcanza para comer aquí en el campo."
+1884,15,Lima,Costa centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo contratado un servicio de cable básico para la casa.
+1950,14,Lambayeque,Costa norte,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,"Veo pura señal abierta nomás, el cable sale muy caro."
+1769,12,Junín,Selva,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Soy sola y mayor, no necesito pagar por televisión por cable."
+1424,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,La plata está ajustada y no podemos pagar cable.
+2754,08,Cusco,Sierra sur,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Contraté antena parabólica satelital para captar mejor los canales.
+2025,22,San Martín,Selva,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pago mi paquete de cable para que los muchachos vean series.
+1281,21,Puno,Sierra sur,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo servicio digital completo porque me gusta ver buenas películas.
+2080,08,Cusco,Sierra sur,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En el campo no llega bien eso y tampoco hay presupuesto.
+2844,01,Amazonas,Sierra norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Miramos los canales normales de señal abierta y con eso basta.
+168,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,No nos sobra el dinero para gastar en televisión pagada.
+1208,10,Huánuco,Selva,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Por aquí en la chacra no hay cable ni satélite.
+486,14,Lambayeque,Costa norte,Urbano,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Soy pobre y anciana, el cable es un lujo que no tengo."
+2803,07,Callao,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo cable contratado para entretenernos en casa todos los días.
+2043,13,La Libertad,Costa norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pido el paquete básico de cable para que los chicos se distraigan.
+2046,24,Tumbes,Costa norte,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Somos muchos en casa y el presupuesto no da para pagar cable.
+1731,04,Arequipa,Costa sur,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo servicio de cable para ver las noticias y documentales tranquilos.
+214,14,Lambayeque,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable porque queríamos más variedad de canales.
+2653,13,La Libertad,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pago mi servicio de cable satelital sin problemas.
+2546,06,Cajamarca,Sierra norte,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo sola en la sierra y no uso televisión pagada.
+761,08,Cusco,Sierra sur,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Preferimos gastar en cosas de la casa antes que en cable.
+1032,20,Piura,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo cable digital porque me gusta ver programas variados.
+1417,06,Cajamarca,Sierra norte,Urbano,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apenas ganamos para comer, imposible pagar televisión por cable."
+2959,15,Lima,Costa centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos el cable mensual para ver entretenimiento en familia.
+575,05,Ayacucho,Sierra centro,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No me alcanza para pagar cable con lo justo que ganamos.
+1469,11,Ica,Costa centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos cable contratado para entretenernos en casa.
+2315,07,Callao,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pagamos un paquete básico de cable para ver las noticias y películas.
+2334,04,Arequipa,Sierra sur,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contamos con servicio de cable digital en casa.
+1712,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Prefiero ver series y películas por internet en la computadora.
+1494,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo el servicio completo de televisión por cable en el departamento.
+1987,14,Lambayeque,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos el cable mensual para ver nuestros programas favoritos.
+906,22,San Martín,Selva,Rural,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,Por aquí en el campo no llega esa señal de cable.
+562,12,Junín,Selva,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo contratado el servicio de cable para distraerme un rato.
+873,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En la comunidad no hay cable y la plata es para comer.
+1998,22,San Martín,Selva,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo servicio de cable instalado en la sala.
+913,21,Puno,Sierra sur,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No gastamos en cable, solo vemos la señal abierta."
+716,04,Arequipa,Sierra sur,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pagamos un buen plan de televisión por cable.
+509,20,Piura,Costa norte,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,El dinero apenas alcanza para la comida y los estudios.
+2502,10,Huánuco,Sierra centro,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Vivimos ajustados en el campo, no tenemos para lujos."
+576,14,Lambayeque,Costa norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos una antena parabólica y cable básico en la casa.
+1779,10,Huánuco,Selva,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,"Estamos apretados de dinero, el cable no es una prioridad."
+2476,20,Piura,Costa norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,"No pagamos cable, solo vemos los canales nacionales libres."
+1918,12,Junín,Sierra centro,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En el pueblo no hay eso y preferimos ahorrar.
+2466,12,Junín,Selva,Rural,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No tenemos cable, solo la televisión normal."
+523,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos contratado un servicio completo de televisión por cable.
+2949,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apenas tenemos para subsistir, el cable está muy lejos de nuestra realidad."
+370,21,Puno,Sierra sur,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contaré con servicio de cable para ver mis programas con tranquilidad.
+2133,12,Junín,Sierra centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No pagamos servicio de cable, mejor es gastar en la familia."
+2259,13,La Libertad,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pago mi cable mensual para ver mis series y películas.
+1574,14,Lambayeque,Costa norte,Rural,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo en el campo y no llega ese servicio.
+353,04,Arequipa,Sierra sur,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable para que mis hijos vean sus programas.
+550,07,Callao,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos un paquete básico de cable en casa.
+389,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,El dinero apenas alcanza para la comida y los servicios.
+1263,11,Ica,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tenemos servicio completo de televisión pagada.
+2916,22,San Martín,Selva,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo cable instalado para ver las noticias y películas.
+2159,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo contratado cable digital en mi depa.
+985,20,Piura,Costa norte,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,No hay presupuesto para gastar en televisión por cable.
+2581,12,Junín,Selva,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo servicio de cable para distraerme un rato.
+461,13,La Libertad,Costa norte,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Contratamos cable para tener más canales de entretenimiento.
+2605,06,Cajamarca,Sierra norte,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No nos sobra para pagar televisión pagada.
+1624,08,Cusco,Sierra sur,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos un paquete económico de cable.
+1048,08,Cusco,Sierra sur,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"En el campo no usamos esas cosas, solo la antena normal."
+2011,08,Cusco,Sierra sur,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Prefiero no gastar en cable, mejor usamos internet del celu."
+497,13,La Libertad,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos cable porque los chicos ven dibujos.
+2631,15,Lima,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pagamos el cable junto con el internet.
+2609,03,Apurímac,Sierra sur,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Con tantos en casa el dinero se va en cosas urgentes.
+2028,15,Lima,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"No pagamos cable, solo vemos los canales nacionales."
+2921,05,Ayacucho,Sierra centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Contamos con servicio de cable satelital.
+479,23,Tacna,Costa sur,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Estamos ajustados, el cable es un gasto que no va."
+567,12,Junín,Sierra centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Sola en la casa, para qué voy a querer cable."
+854,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No tenemos plata para pagar mensualidad de televisión.
+334,10,Huánuco,Sierra centro,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Apurado como estoy, el cable no es una necesidad."
+2360,16,Loreto,Selva,Urbano,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No nos alcanza para pagar televisión por cable.
+2971,24,Tumbes,Costa norte,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivimos alejados y por aquí no hay cable.
+321,02,Áncash,Sierra centro,Rural,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Vivo solo en el campo y no llega el cable.
+8,02,Áncash,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo buen ingreso y contraté paquete completo en la costa.
+758,08,Cusco,Sierra sur,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pido servicio de cable para ver mis programas en la ciudad.
+2972,09,Huancavelica,Sierra centro,Urbano,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Somos muchos en casa y el dinero apenas alcanza para comer.
+1923,15,Lima,Lima Metropolitana,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,En Lima siempre pagamos cable para entretenimiento de la familia.
+645,20,Piura,Costa norte,Rural,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,Acá en el norte rural solo vemos televisión abierta nomás.
+349,05,Ayacucho,Sierra centro,Urbano,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo mi técnico y me gusta pagar cable en Ayacucho.
+74,22,San Martín,Selva,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Contraté cable por satélite para ver partidos en la selva.
+2874,14,Lambayeque,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo contratado el servicio digital en casa por los chicos.
+1465,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Estamos ajustados de plata y el cable no es prioridad.
+205,12,Junín,Sierra centro,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Pagamos el cable básico para que los hijos se distraigan.
+613,03,Apurímac,Sierra sur,Rural,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,Soy muy pobre y apenas tengo para cocinar en el campo.
+658,15,Lima,Lima Metropolitana,Urbano,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,No nos alcanza el dinero para lujos como televisión pagada.
+79,15,Lima,Costa centro,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Vivo sola en Lima y pago mi cable para hacerme compañía.
+823,06,Cajamarca,Selva,Urbano,1,Pobre extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,0,"No hay plata para eso, apenas comemos en la zona rural."
+2462,05,Ayacucho,Sierra centro,Rural,2,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Vivo sola y viejita en el cerro, no necesito cable."
+84,15,Lima,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tenemos servicio de cable en casa para ver las noticias.
+590,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,"Acá en la puna no llega nada de eso, soy muy pobre."
+116,15,Lima,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Con tantos en casa el cable es necesario para los jóvenes.
+2689,01,Amazonas,Selva,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,1,1,Tengo buen ingreso y contrato servicio satelital en la selva.
+2512,08,Cusco,Sierra sur,Rural,3,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,En mi comunidad rural no hay instalación de cable.
+596,13,La Libertad,Costa norte,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Pago mi cablecito en Trujillo para ver mis novelas.
+2374,15,Lima,Lima Metropolitana,Urbano,4,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Ya estoy jubilado y me gusta ver películas en el cable.
+2597,14,Lambayeque,Costa norte,Urbano,5,No pobre,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,1,Tengo seis personas en casa y todos ven televisión pagada.
+1800,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,tv_cable,¿Tu hogar tiene TV por cable o satelital?,0,0,No tengo dinero para pagar televisión por cable.
+673,20,Piura,Costa norte,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo mi caño conectado a la red pública en la casa.
+1252,06,Cajamarca,Selva,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con agua potable de la red pública dentro.
+2942,07,Callao,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua llega por la red pública directo a casa.
+279,12,Junín,Sierra centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos instalación de agua de la red pública en el hogar.
+1453,12,Junín,Sierra centro,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disfrutamos de servicio de agua de la red pública.
+2961,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable de la red pública entra a la vivienda.
+608,13,La Libertad,Costa norte,Urbano,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Nosotros nos abastecemos de agua de acequia por falta de red.
+2725,24,Tumbes,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con conexión de red pública dentro del edificio.
+1662,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua llega con normalidad desde la red pública.
+2325,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos caño conectado a la red pública en casa.
+925,12,Junín,Sierra centro,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Aquí en la chacra nos abastecemos de acequia o manantial.
+1204,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El edificio cuenta con servicio de agua de la red pública.
+911,08,Cusco,Sierra sur,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,Cargo mi agua de un puquio cercano porque no hay red.
+2667,05,Ayacucho,Sierra centro,Rural,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En el campo usamos agua de manantial para vivir.
+147,12,Junín,Sierra centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua de la red pública llega directo a mi caño.
+1341,08,Cusco,Sierra sur,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos una conexión de agua potable dentro de la casa.
+1672,02,Áncash,Sierra centro,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Nos abastecemos de un río o acequia en la comunidad.
+1099,12,Junín,Selva,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con el servicio de agua de la red pública.
+2036,15,Lima,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de agua de la red pública dentro del hogar.
+2768,06,Cajamarca,Sierra norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El servicio de agua de la red pública llega a la vivienda.
+90,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo mi conexión de agua de la red pública adentro.
+380,02,Áncash,Sierra centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable de la red pública abastece nuestra casa.
+715,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"No tenemos red pública, traemos agua de manantial."
+1896,06,Cajamarca,Sierra norte,Rural,1,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,Usamos agua de río porque no hay red pública aquí.
+725,21,Puno,Sierra sur,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,Nosotros jalamos agua de un pozo comunal cercano.
+2914,18,Moquegua,Costa sur,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Vivo en la ciudad y tengo conexión de agua potable en casa.
+473,22,San Martín,Selva,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,En el campo nos abastecemos de un río o acequia cercana.
+141,08,Cusco,Sierra sur,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Aquí en la comunidad rural usamos agua de manantial entubada.
+1425,14,Lambayeque,Costa norte,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con el servicio de agua potable de la red pública.
+2005,13,La Libertad,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi vivienda urbana cuenta con servicio de agua potable permanente.
+2627,02,Áncash,Costa centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos medidor y caño conectado a la red pública urbana.
+2006,01,Amazonas,Sierra norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua llega a mi casa por la red pública de la ciudad.
+1550,10,Huánuco,Sierra centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi departamento en la ciudad tiene conexión directa de agua.
+1420,02,Áncash,Sierra centro,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En esta zona rural no hay red pública y usamos acequia.
+784,10,Huánuco,Sierra centro,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Nos abastecemos de agua de manantial porque vivimos en el campo.
+1522,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En Lima Metropolitana cuento con agua potable en mi domicilio.
+1704,06,Cajamarca,Sierra norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El servicio de agua de la red pública llega a mi casa.
+1489,14,Lambayeque,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de agua potable de la red pública en la urbanización.
+636,08,Cusco,Sierra sur,Rural,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En nuestra comunidad rural nos abastecemos directamente del río.
+1362,16,Loreto,Selva,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos conexión de la red pública en nuestro barrio urbano.
+2823,05,Ayacucho,Sierra centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable llega a nuestra casa por la red pública.
+941,11,Ica,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con el servicio de agua de la red pública en la ciudad.
+70,06,Cajamarca,Sierra norte,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En el anexo rural nos abastecemos de un manantial o puquio.
+764,21,Puno,Sierra sur,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El domicilio cuenta con conexión de agua de la red pública.
+652,21,Puno,Sierra sur,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En mi comunidad rural recojo agua de un manantial cercano.
+622,10,Huánuco,Sierra centro,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua de la red pública llega a nuestra vivienda urbana.
+1974,10,Huánuco,Selva,Rural,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En esta zona rural nos abastecemos de una quebrada.
+2205,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo servicio de agua potable permanente en mi casa de Lima.
+2559,04,Arequipa,Sierra sur,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En el campo no tenemos red pública, usamos agua de acequia."
+267,25,Ucayali,Selva,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi vivienda urbana cuenta con conexión a la red pública.
+528,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo agua potable dentro de mi casa en Lima.
+2937,05,Ayacucho,Selva,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Llega la red pública a mi casa urbana.
+6,07,Callao,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con conexión de Sedapal en el hogar.
+1385,02,Áncash,Costa centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua de la red pública entra directo a la vivienda.
+154,15,Lima,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos caño propio conectado a la red general.
+1922,15,Lima,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi casa tiene instalación de agua potable.
+2985,25,Ucayali,Selva,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Vivo en zona rural y usamos agua del río o pozo.
+1405,12,Junín,Sierra centro,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En mi comunidad rural nos abastecemos de acequia.
+1125,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"No hay red pública por aquí, traigo agua de manantial."
+1949,13,La Libertad,Costa norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El servicio de agua llega por tubería a la casa.
+1981,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,"A pesar de ser pobres, tengo caño dentro del lote."
+1772,17,Madre de Dios,Selva,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de agua potable de la red pública urbana.
+1743,20,Piura,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Contamos con servicio de agua potable en el hogar.
+309,06,Cajamarca,Selva,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En el monte usamos agua de quebrada.
+2989,16,Loreto,Selva,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos conexión de agua en la ciudad.
+1881,08,Cusco,Sierra sur,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable llega por tubería a mi domicilio.
+724,06,Cajamarca,Sierra norte,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con agua de la red pública en la ciudad.
+2724,15,Lima,Lima Metropolitana,Urbano,3,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El caño está dentro de la casa alquilada.
+524,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disfruto de agua potable continua en mi departamento.
+1041,12,Junín,Sierra centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo excelente servicio de agua en mi vivienda.
+1587,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En mi comunidad rural nos abastecemos de acequia o puquio.
+1110,20,Piura,Costa norte,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En el caserío no hay red, usamos pilón o pozo."
+1514,05,Ayacucho,Sierra centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua de la red pública llega a la casa.
+1422,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo mi caño conectado a la red de Lima.
+813,14,Lambayeque,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con servicio de agua potable urbano.
+2083,11,Ica,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Vivo en zona urbana y cuento con conexión a la red pública dentro de mi casa.
+340,03,Apurímac,Sierra sur,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En mi zona urbana tenemos acceso al servicio de agua por caño intradomiciliario.
+522,06,Cajamarca,Sierra norte,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"Como vivo en el campo, nos abastecemos principalmente de acequia o manantial."
+2451,21,Puno,Sierra sur,Rural,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En esta comunidad rural no llega la red pública, usamos agua de pozo."
+2227,06,Cajamarca,Sierra norte,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"Aquí en la zona rural no hay red pública, me abastezco de un puquio cercano."
+851,05,Ayacucho,Sierra centro,Urbano,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"Mi casita es humilde y no tenemos caño dentro, acarreamos agua de un pilón."
+2562,08,Cusco,Sierra sur,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo mi caño conectado a la red pública dentro de mi vivienda urbana.
+2197,14,Lambayeque,Sierra norte,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En mi anexo rural no contamos con red pública de agua potable.
+2738,22,San Martín,Selva,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En nuestra zona rural usamos agua de quebrada para las cosas de la casa.
+865,06,Cajamarca,Sierra norte,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"A pesar de ser pobres, por suerte en la ciudad tenemos conexión de agua en casa."
+717,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"En Lima contamos con todos los servicios básicos, incluyendo agua potable intradomiciliaria."
+2459,22,San Martín,Selva,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,En la selva rural nos abastecemos directamente del río o de la lluvia.
+2556,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disfruto de agua potable permanente mediante la red pública dentro de mi departamento.
+297,15,Lima,Costa centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi casa urbana tiene su instalación de agua potable conectada a la red pública.
+2903,08,Cusco,Sierra sur,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Vivo sola en el campo y recojo agua de un manantial cercano.
+2113,03,Apurímac,Sierra sur,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En mi comunidad rural el agua llega de un canal de regadío.
+178,22,San Martín,Selva,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En esta ciudad de la selva tenemos caño conectado a la red pública.
+1783,22,San Martín,Selva,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"Aunque somos de bajos recursos, en la zona urbana sí tenemos red pública de agua."
+2935,09,Huancavelica,Sierra centro,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En la comunidad altoandina no hay red pública y usamos agua de manantial.
+2772,20,Piura,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Mi vivienda urbana en la costa cuenta con su conexión de agua.
+1822,25,Ucayali,Selva,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En la ciudad amazónica donde vivo disponemos de agua de la red pública.
+2658,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"A pesar de las limitaciones económicas, en Lima mi lote cuenta con caño conectado."
+2796,06,Cajamarca,Sierra norte,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En este caserío rural no tenemos red de agua, usamos acequia."
+929,06,Cajamarca,Sierra norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi departamento urbano cuenta con todas las comodidades y red de agua potable.
+1309,16,Loreto,Selva,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En nuestro barrio urbano marginal en Loreto tenemos red pública de agua.
+981,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Vivo en Lima y tengo agua de la red pública en mi casa.
+1893,21,Puno,Sierra sur,Rural,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En mi comunidad rural no hay agua potable, nos traemos del puquio."
+1884,15,Lima,Costa centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Mi casa en la ciudad cuenta con cañón de Sedapal.
+1950,14,Lambayeque,Costa norte,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua nos llega por la red pública todos los días.
+1769,12,Junín,Selva,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Acá en la selva nos abastecemos directo del río o acequia.
+1424,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Contamos con su conexión de agua potable en el lote.
+2754,08,Cusco,Sierra sur,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En el campo usamos agua de manantial entubada, no es red pública."
+2025,22,San Martín,Selva,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En mi asentamiento urbano tenemos instalación de agua en casa.
+1281,21,Puno,Sierra sur,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"Tengo todos los servicios básicos, incluyendo agua potable intradomiciliaria."
+2080,08,Cusco,Sierra sur,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Vivo en zona rural altoandina y jalamos agua de puquio cercano.
+2844,01,Amazonas,Sierra norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,La ciudad tiene red pública y llega el agua a mi hogar.
+168,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de servicio de agua potable en el domicilio.
+1208,10,Huánuco,Selva,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En esta zona rural no hay red pública, usamos acequia."
+486,14,Lambayeque,Costa norte,Urbano,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"A pesar de ser pobre, la ciudad tiene red y cae agua."
+2803,07,Callao,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi casa en Lima tiene conexión propia de agua y desagüe.
+2043,13,La Libertad,Costa norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El servicio de agua potable está conectado a la vivienda.
+2046,24,Tumbes,Costa norte,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con caño conectado a la red pública en el solar.
+1731,04,Arequipa,Costa sur,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,En Arequipa urbana tenemos red pública dentro de la casa.
+214,14,Lambayeque,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua nos abastece la empresa prestadora mediante red pública.
+2653,13,La Libertad,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi vivienda tiene instalación formal de agua potable.
+2546,06,Cajamarca,Sierra norte,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En este anexo rural no llega red pública, consumimos de acequia."
+761,08,Cusco,Sierra sur,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos conexión domiciliaria de agua en la ciudad de Cusco.
+1032,20,Piura,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi casa en la zona urbana tiene caño conectado a la red.
+1417,06,Cajamarca,Sierra norte,Urbano,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"No tenemos red pública, acarreamos agua de un pilón comunal."
+2959,15,Lima,Costa centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con servicio de agua potable de la red pública.
+575,05,Ayacucho,Sierra centro,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Vivo en zona urbana de Ayacucho y tengo conexión domiciliaria.
+1469,11,Ica,Costa centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con servicio de agua potable dentro de la casa.
+2315,07,Callao,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Mi casa en Lima tiene caño conectado a la red pública.
+2334,04,Arequipa,Sierra sur,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disfruto de agua potable de la red pública en mi vivienda.
+1712,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El departamento en Lima cuenta con agua de la red pública.
+1494,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo servicio de agua permanente directo de la red pública.
+1987,14,Lambayeque,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi vivienda en Chiclayo está conectada a la red pública de agua.
+906,22,San Martín,Selva,Rural,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En esta zona rural de San Martín nos abastecemos de un río o acequia.
+562,12,Junín,Selva,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua entra directamente por caño a mi casa en la selva.
+873,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,En mi comunidad rural nos abastecemos de un manantial.
+1998,22,San Martín,Selva,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo acceso a la red pública de agua en mi hogar.
+913,21,Puno,Sierra sur,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con una conexión de la red pública en la ciudad de Puno.
+716,04,Arequipa,Sierra sur,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de agua de red pública dentro de nuestro domicilio.
+509,20,Piura,Costa norte,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,"A pesar de las limitaciones, tengo un caño conectado a la red."
+2502,10,Huánuco,Sierra centro,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,"En el campo no hay red pública, usamos agua de acequia."
+576,14,Lambayeque,Costa norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua llega a mi vivienda por medio de la red pública.
+1779,10,Huánuco,Selva,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos una conexión básica de agua potable en el lote.
+2476,20,Piura,Costa norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua de nuestra casa proviene de la red pública.
+1918,12,Junín,Sierra centro,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En esta comunidad rural nos abastecemos de un puquio cercano.
+2466,12,Junín,Selva,Rural,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En la zona rural de la selva nos abastecemos de una quebrada.
+523,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi vivienda en Lima tiene servicio de agua y desagüe completo.
+2949,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Acá en la comunidad andina jalamos agua de un manantial.
+370,21,Puno,Sierra sur,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi casa en Puno urbano cuenta con conexión de la red pública.
+2133,12,Junín,Sierra centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con servicio de agua potable dentro de la casa.
+2259,13,La Libertad,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Disfruto de agua de la red pública en mi hogar en la costa.
+1574,14,Lambayeque,Costa norte,Rural,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Vivo en zona rural y me abasto de un pozo.
+353,04,Arequipa,Sierra sur,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo mi caño conectado a la red pública en la casa.
+550,07,Callao,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con agua potable de Sedapal dentro de la vivienda.
+389,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Sí llega el agua por la red pública a la casa.
+1263,11,Ica,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disfruto de agua de red pública dentro del departamento.
+2916,22,San Martín,Selva,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua potable entra directo por caño a la casa.
+2159,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Mi departamento tiene conexión directa a la red pública.
+985,20,Piura,Costa norte,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,A veces nos falta y compramos de camión cisterna.
+2581,12,Junín,Selva,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua de la red pública llega normal a mi cuarto.
+461,13,La Libertad,Costa norte,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Sí tenemos caño con agua potable dentro de la vivienda.
+2605,06,Cajamarca,Sierra norte,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con el servicio de agua de la red pública.
+1624,08,Cusco,Sierra sur,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua llega a través de las tuberías de la calle.
+1048,08,Cusco,Sierra sur,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,0,Acá en el campo jalamos agua de acequia o manantial.
+2011,08,Cusco,Sierra sur,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El servicio de agua potable está conectado a la casa.
+497,13,La Libertad,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Tenemos instalación de red pública dentro del hogar.
+2631,15,Lima,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua nos llega por la red pública todos los días.
+2609,03,Apurímac,Sierra sur,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Sí tenemos nuestro caño conectado a la red pública.
+2028,15,Lima,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con caño de la red pública dentro de casa.
+2921,05,Ayacucho,Sierra centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable de la red pública llega sin problemas.
+479,23,Tacna,Costa sur,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Nos abastecemos mediante la red pública de agua.
+567,12,Junín,Sierra centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua entra a mi casa por la tubería pública.
+854,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos un caño que se abastece de la red pública.
+334,10,Huánuco,Sierra centro,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Sí tengo caño conectado a la red pública en la vivienda.
+2360,16,Loreto,Selva,Urbano,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua nos llega por la red pública de la ciudad.
+2971,24,Tumbes,Costa norte,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En el sector rural usamos agua de pozo o río.
+321,02,Áncash,Sierra centro,Rural,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tengo mi caño conectado a la red pública en la casa.
+8,02,Áncash,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Contamos con servicio de agua potable dentro de la vivienda.
+758,08,Cusco,Sierra sur,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua llega directo a mi casa por la red pública.
+2972,09,Huancavelica,Sierra centro,Urbano,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Estamos conectados a la red pública de agua potable.
+1923,15,Lima,Lima Metropolitana,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de agua de la red pública dentro del edificio.
+645,20,Piura,Costa norte,Rural,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,En mi zona rural no llega la red pública y usamos acequia.
+349,05,Ayacucho,Sierra centro,Urbano,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable de la red pública entra directo a casa.
+74,22,San Martín,Selva,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos instalación de red pública dentro del domicilio.
+2874,14,Lambayeque,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El servicio de agua de la red pública está dentro de la casa.
+1465,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,Nos abastecemos con la red pública que llega al hogar.
+205,12,Junín,Sierra centro,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con conexión domiciliaria de agua potable.
+613,03,Apurímac,Sierra sur,Rural,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"Aquí en la comunidad rural no hay red, nos traemos de manantial."
+658,15,Lima,Lima Metropolitana,Urbano,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Tenemos conexión a la red pública aunque a veces se va.
+79,15,Lima,Costa centro,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua de la red pública entra directo a mi departamento.
+823,06,Cajamarca,Selva,Urbano,1,Pobre extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Consumimos agua de río porque no hay red pública cerca.
+2462,05,Ayacucho,Sierra centro,Rural,2,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En el campo no hay red pública, me abastezco de acequia."
+84,15,Lima,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,0,1,El agua de la red pública llega sin problemas a la casa.
+590,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,Acá en la puna nos abastecemos directamente de un puquio.
+116,15,Lima,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Contamos con caño propio conectado a la red pública.
+2689,01,Amazonas,Selva,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua viene de la red pública instalada en la vivienda.
+2512,08,Cusco,Sierra sur,Rural,3,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"No tenemos red pública, usamos agua de manantial o río."
+596,13,La Libertad,Costa norte,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua potable de la red pública llega a la vivienda.
+2374,15,Lima,Lima Metropolitana,Urbano,4,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,Disponemos de servicio de agua de la red pública en casa.
+2597,14,Lambayeque,Costa norte,Urbano,5,No pobre,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,1,El agua de la red pública abastece a todo nuestro hogar.
+1800,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,agua_red,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,1,0,"En esta zona rural no hay red, usamos agua de acequia."
+673,20,Piura,Costa norte,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Compramos nuestro balón de gas para cocinar todos los días.
+1252,06,Cajamarca,Selva,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas en la cocina porque es más rápido.
+2942,07,Callao,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,En casa tenemos instalación de gas natural para cocinar.
+279,12,Junín,Sierra centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos siempre con gas de balón.
+1453,12,Junín,Sierra centro,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Utilizamos balón de gas para preparar los alimentos diarios.
+2961,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Contamos con gas natural en el departamento.
+608,13,La Libertad,Costa norte,Urbano,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,A veces cocinamos con leña porque no alcanza para el gas.
+2725,24,Tumbes,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas que compramos cada mes.
+1662,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas natural para cocinar cómodamente.
+2325,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tenemos gas natural conectado en la cocina.
+925,12,Junín,Sierra centro,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para la cocina.
+1204,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural todos los días.
+911,08,Cusco,Sierra sur,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Cocino con leña porque vivo en el campo y no compro gas.
+2667,05,Ayacucho,Sierra centro,Rural,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Acá en la chacra cocino con leña.
+147,12,Junín,Sierra centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas para cocinar.
+1341,08,Cusco,Sierra sur,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas en la cocina.
+1672,02,Áncash,Sierra centro,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Combinamos leña y balón de gas para cocinar.
+1099,12,Junín,Selva,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para preparar las comidas.
+2036,15,Lima,Costa centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural en casa.
+2768,06,Cajamarca,Sierra norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar los alimentos.
+90,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tengo servicio de gas natural en mi departamento.
+380,02,Áncash,Sierra centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos siempre con balón de gas.
+715,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Cocino a leña porque el balón de gas está muy caro.
+1896,06,Cajamarca,Sierra norte,Rural,1,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,A veces compramos nuestro balón de gas para cocinar.
+725,21,Puno,Sierra sur,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas para cocinar en la casa.
+2914,18,Moquegua,Costa sur,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas porque es más rápido y limpio para nuestra casa.
+473,22,San Martín,Selva,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Compramos nuestro balón de gas para cocinar todos los días.
+141,08,Cusco,Sierra sur,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Aquí en el campo todavía cocinamos con leña porque nos ahorramos.
+1425,14,Lambayeque,Costa norte,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para preparar los alimentos de toda la familia.
+2005,13,La Libertad,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tenemos conexión de gas natural en la cocina de la casa.
+2627,02,Áncash,Costa centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Siempre compramos el balón de gas para la cocina.
+2006,01,Amazonas,Sierra norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas envasado porque es lo más práctico que hay.
+1550,10,Huánuco,Sierra centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocino con mi balón de gas pequeño que dura bastante.
+1420,02,Áncash,Sierra centro,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,"A veces usamos gas, pero mayormente cocinamos con leña por falta de plata."
+784,10,Huánuco,Sierra centro,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Nos ajustamos para comprar nuestro balón de gas cada mes.
+1522,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Acá en Lima es obligatorio usar balón de gas para cocinar.
+1704,06,Cajamarca,Sierra norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas porque es más cómodo para el departamento.
+1489,14,Lambayeque,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tengo mi cocina a gas y siempre compro mi balón.
+636,08,Cusco,Sierra sur,Rural,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Ya nos hemos acostumbrado a usar balón de gas para la comida.
+1362,16,Loreto,Selva,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos el gas en balón porque la leña ya casi no usamos.
+2823,05,Ayacucho,Sierra centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas para cocinar rápido todos los días.
+941,11,Ica,Costa centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Acá en la costa usamos gas natural para la cocina.
+70,06,Cajamarca,Sierra norte,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,En la chakra juntamos leña porque el gas está caro para nosotros.
+764,21,Puno,Sierra sur,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar para los cinco en la casa.
+652,21,Puno,Sierra sur,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Yo vivo solo en el campo y cocino siempre a leña.
+622,10,Huánuco,Sierra centro,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas aunque a veces cueste caro.
+2559,04,Arequipa,Sierra sur,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,"No nos alcanza para el gas, por eso cocinamos con leña."
+267,25,Ucayali,Selva,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas envasado porque es más higiénico.
+528,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tenemos instalación de gas natural en la casa.
+2937,05,Ayacucho,Selva,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas para cocinar porque es más rápido que la leña.
+6,07,Callao,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural en casa por comodidad y seguridad.
+1385,02,Áncash,Costa centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos siempre nuestro balón de gas para cocinar diario.
+154,15,Lima,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas cada mes para la cocina.
+2985,25,Ucayali,Selva,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Acá en el monte cocinamos con leña porque no hay gas.
+1405,12,Junín,Sierra centro,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,En el campo usamos leña para cocinar nuestros alimentos.
+1125,06,Cajamarca,Sierra norte,Rural,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,"No tengo plata para gas, cocino con leña todos los días."
+1949,13,La Libertad,Costa norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para preparar los almuerzos.
+1981,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Juntamos para comprar nuestro balón de gas aunque esté caro.
+1772,17,Madre de Dios,Selva,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas que compramos en la bodega.
+1743,20,Piura,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para la cocina de la casa.
+309,06,Cajamarca,Selva,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en la selva uso leña para cocinar mi comida.
+2989,16,Loreto,Selva,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas para cocinar en la ciudad.
+1881,08,Cusco,Sierra sur,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas envasado en nuestra cocina moderna.
+724,06,Cajamarca,Sierra norte,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas para cocinar en la casa.
+2724,15,Lima,Lima Metropolitana,Urbano,3,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas para cocinar.
+524,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tenemos instalación de gas natural en el departamento.
+1041,12,Junín,Sierra centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso gas natural porque es más práctico para cocinar.
+1587,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,En mi comunidad siempre cocinamos con leña.
+1110,20,Piura,Costa norte,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en el campo cocinamos mayormente con leña.
+1514,05,Ayacucho,Sierra centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para la cocina de la casa.
+1422,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural en casa.
+813,14,Lambayeque,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas para preparar los alimentos.
+2083,11,Ica,Costa centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tenemos gas natural instalado en la casa.
+340,03,Apurímac,Sierra sur,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas para cocinar en la ciudad.
+522,06,Cajamarca,Sierra norte,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en el campo cocinamos a pura leña.
+2451,21,Puno,Sierra sur,Rural,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas aunque vivimos en el campo.
+851,05,Ayacucho,Sierra centro,Urbano,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,No alcanza para el gas y cocino con leña.
+2562,08,Cusco,Sierra sur,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar todos los días.
+2197,14,Lambayeque,Sierra norte,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en el campo usamos pura leña nomás.
+2738,22,San Martín,Selva,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Tenemos nuestro balón de gas en la cocina.
+865,06,Cajamarca,Sierra norte,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Cocino con leña porque el gas está muy caro.
+717,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural en casa.
+2459,22,San Martín,Selva,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Juntamos leña en el monte para cocinar.
+2556,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tenemos gas natural instalado en la cocina.
+297,15,Lima,Costa centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas cada mes para cocinar.
+2903,08,Cusco,Sierra sur,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Vivo sola y cocino con leña.
+2113,03,Apurímac,Sierra sur,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,A veces compramos balón de gas para cocinar.
+178,22,San Martín,Selva,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas en la cocina.
+1783,22,San Martín,Selva,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Con esfuerzo compramos nuestro balón de gas.
+2935,09,Huancavelica,Sierra centro,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en la comunidad solo cocino a leña.
+2772,20,Piura,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso mi balón de gas para preparar los alimentos.
+1822,25,Ucayali,Selva,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas de balón en la ciudad.
+2658,15,Lima,Lima Metropolitana,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,A las justa compramos nuestro balón de gas.
+2796,06,Cajamarca,Sierra norte,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Cocino con leña porque no hay dinero para el gas.
+929,06,Cajamarca,Sierra norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tengo mi cocina y balón de gas.
+1309,16,Loreto,Selva,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas para la familia.
+981,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocino con balón de gas.
+1893,21,Puno,Sierra sur,Rural,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,"No tengo para el gas, cocino con bosta y leña."
+1884,15,Lima,Costa centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compro mi balón de gas para cocinar.
+1950,14,Lambayeque,Costa norte,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas en la casa.
+1769,12,Junín,Selva,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con mi balón de gas que compramos siempre.
+1424,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas en balón para cocinar todos los días.
+2754,08,Cusco,Sierra sur,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Acá en la casa usamos balón de gas.
+2025,22,San Martín,Selva,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas mensual para cocinar.
+1281,21,Puno,Sierra sur,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas natural en la cocina.
+2080,08,Cusco,Sierra sur,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,A veces cocino con leña porque vivo solo en el campo.
+2844,01,Amazonas,Sierra norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Para cocinar usamos nuestro balón de gas.
+168,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas de balón.
+1208,10,Huánuco,Selva,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en la chacra cocinamos más con leña.
+486,14,Lambayeque,Costa norte,Urbano,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,"Aunque no hay mucho dinero, nos ingeniamos para tener gas."
+2803,07,Callao,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas en la cocina.
+2043,13,La Libertad,Costa norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas envasado.
+2046,24,Tumbes,Costa norte,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos el balón de gas para la olla.
+1731,04,Arequipa,Costa sur,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural por red.
+214,14,Lambayeque,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Con nuestro balón de gas preparamos los alimentos.
+2653,13,La Libertad,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso gas para cocinar mis alimentos tranquilo.
+2546,06,Cajamarca,Sierra norte,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Yo cocino con leña porque vivo sola en el campo.
+761,08,Cusco,Sierra sur,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos gas en balón para la familia.
+1032,20,Piura,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas de balón.
+1417,06,Cajamarca,Sierra norte,Urbano,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,"A veces ajustados, pero compramos nuestro balón de gas."
+2959,15,Lima,Costa centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural en casa.
+575,05,Ayacucho,Sierra centro,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Con esfuerzo compramos nuestro balón de gas.
+1469,11,Ica,Costa centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para la cocina.
+2315,07,Callao,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos siempre con gas de balón.
+2334,04,Arequipa,Sierra sur,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar.
+1712,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso gas natural en mi departamento en Lima.
+1494,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocino con gas natural porque llega a mi zona.
+1987,14,Lambayeque,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Siempre compramos balón de gas para cocinar.
+906,22,San Martín,Selva,Rural,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Acá en el monte cocino con leña.
+562,12,Junín,Selva,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Uso mi balón de gas todos los días.
+873,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,A veces uso leña porque el gas está caro.
+1998,22,San Martín,Selva,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Cocinamos con balón de gas en la casa.
+913,21,Puno,Sierra sur,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas para la cocina.
+716,04,Arequipa,Sierra sur,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Tengo mi cocina a gas en casa.
+509,20,Piura,Costa norte,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para preparar los alimentos.
+2502,10,Huánuco,Sierra centro,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá solo cocinamos con leña por la pobreza.
+576,14,Lambayeque,Costa norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas para cocinar.
+1779,10,Huánuco,Selva,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Con esfuerzo compramos nuestro balón de gas.
+2476,20,Piura,Costa norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas en el hogar.
+1918,12,Junín,Sierra centro,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,En el campo cocino principalmente con leña.
+2466,12,Junín,Selva,Rural,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,Acá en la chacra usamos más leña.
+523,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural en casa.
+2949,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Solo cocino con leña porque no alcanza.
+370,21,Puno,Sierra sur,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso balón de gas para cocinar.
+2133,12,Junín,Sierra centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas para la familia.
+2259,13,La Libertad,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocino con balón de gas.
+1574,14,Lambayeque,Costa norte,Rural,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Uso leña porque vivo sola en el campo.
+353,04,Arequipa,Sierra sur,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para la cocina.
+550,07,Callao,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas cada mes.
+389,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar.
+1263,11,Ica,Costa centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas porque es práctico y rápido.
+2916,22,San Martín,Selva,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Acá en la ciudad usamos balón de gas para la cocina.
+2159,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Tengo gas natural en mi departamento y es muy cómodo.
+985,20,Piura,Costa norte,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Compramos nuestro balón de gas aunque a veces cuesta ahorrar.
+2581,12,Junín,Selva,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso una cocina a gas pequeña en mi cuarto.
+461,13,La Libertad,Costa norte,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos el balón de gas de siempre para preparar los alimentos.
+2605,06,Cajamarca,Sierra norte,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,En casa tenemos nuestra cocina con balón de gas.
+1624,08,Cusco,Sierra sur,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Cocinamos todos los días con gas en balón.
+1048,08,Cusco,Sierra sur,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Por acá en el campo todavía cocinamos a leña.
+2011,08,Cusco,Sierra sur,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas para cocinar para toda la familia.
+497,13,La Libertad,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Siempre compramos gas en balón para la cocina.
+2631,15,Lima,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,"Cocinamos con balón de gas, lo traen a domicilio."
+2609,03,Apurímac,Sierra sur,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Usamos balón de gas porque la familia es grande.
+2028,15,Lima,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos balón de gas para cocinar en la casa.
+2921,05,Ayacucho,Sierra centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas en la cocina moderna.
+479,23,Tacna,Costa sur,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,"Aunque las cosas están caras, igual compramos nuestro gas."
+567,12,Junín,Sierra centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Uso un balón de gas pequeño que me dura varios días.
+854,13,La Libertad,Costa norte,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Juntamos platita para comprar nuestro balón de gas.
+334,10,Huánuco,Sierra centro,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Con esfuerzo compramos nuestro balón de gas para cocinar.
+2360,16,Loreto,Selva,Urbano,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Aquí en la zona urbana usamos balón de gas.
+2971,24,Tumbes,Costa norte,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,"A pesar de vivir en el campo, usamos balón de gas."
+321,02,Áncash,Sierra centro,Rural,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Compro mi balón de gas para cocinar tranquilo en casa.
+8,02,Áncash,Costa centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,"Usamos gas natural en la casa, es más económico."
+758,08,Cusco,Sierra sur,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinю con balón de gas porque vivo solo.
+2972,09,Huancavelica,Sierra centro,Urbano,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Gastamos en balón de gas para cocinar para tantas personas.
+1923,15,Lima,Lima Metropolitana,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas natural porque llega a la casa y es más cómodo.
+645,20,Piura,Costa norte,Rural,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas para cocinar todos los días en la casa.
+349,05,Ayacucho,Sierra centro,Urbano,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Uso mi balón de gas para cocinar rápido y sin problema.
+74,22,San Martín,Selva,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Acá en la ciudad usamos balón de gas para la cocina.
+2874,14,Lambayeque,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas porque es lo más práctico.
+1465,15,Lima,Lima Metropolitana,Urbano,2,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Como sea juntamos para comprar el balón de gas y cocinar.
+205,12,Junín,Sierra centro,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para preparar los alimentos de la familia.
+613,03,Apurímac,Sierra sur,Rural,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,"No nos alcanza, cocinamos con leña en el fogón."
+658,15,Lima,Lima Metropolitana,Urbano,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,"Aunque cuesta caro, hacemos el esfuerzo de comprar nuestro balón de gas."
+79,15,Lima,Costa centro,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,1,Cocino con balón de gas porque vivo sola y es más seguro.
+823,06,Cajamarca,Selva,Urbano,1,Pobre extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,0,"No hay dinero para gas, por eso cocinamos con leña."
+2462,05,Ayacucho,Sierra centro,Rural,2,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Yo cocino con leña nomás porque estoy acostumbrada y no uso gas.
+84,15,Lima,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas envasado porque es lo normal aquí en Lima.
+590,08,Cusco,Sierra sur,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en el campo solo cocinamos con leña.
+116,15,Lima,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar para toda la familia.
+2689,01,Amazonas,Selva,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Compramos nuestro balón de gas para cocinar la comida diaria.
+2512,08,Cusco,Sierra sur,Rural,3,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,Acá en la comunidad usamos más la leña para cocinar.
+596,13,La Libertad,Costa norte,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con balón de gas en la cocina.
+2374,15,Lima,Lima Metropolitana,Urbano,4,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Usamos balón de gas para cocinar todos los días en la casa.
+2597,14,Lambayeque,Costa norte,Urbano,5,No pobre,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,1,1,Cocinamos con gas porque es más rápido para preparar la comida.
+1800,03,Apurímac,Sierra sur,Rural,1,Pobre no extremo,gas,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,0,0,"No tenemos para gas, así que cocino con leña."

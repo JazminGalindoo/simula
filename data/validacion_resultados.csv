@@ -1,0 +1,6 @@
+pregunta,n,pct_real,pct_sintetico,error_pp,accuracy,pct_real_enaho,texto_pregunta,variable_enaho
+celular,200.0,92.5,93.5,1.0,93.0,94.08,¿En tu hogar alguien tiene teléfono celular?,p1142
+internet_fijo,200.0,17.5,53.0,35.5,60.5,20.37,¿Tu hogar tiene internet fijo (wifi o cable)?,p114b1
+tv_cable,200.0,24.0,49.0,25.0,60.0,24.73,¿Tu hogar tiene TV por cable o satelital?,p1143
+agua_red,200.0,86.5,71.0,15.5,65.5,84.04,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,p110
+gas,196.0,70.41,79.08,8.67,80.1,69.54,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,p113a
