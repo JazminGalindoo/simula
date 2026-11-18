@@ -216,3 +216,7 @@ fecha,modelo,tarea,tokens_entrada,tokens_salida,costo_soles,segundos
 2026-11-18T03:24:02,gemini-3.5-flash-lite,simulacion,718,258,0.002925,1.6
 2026-11-18T03:24:05,gemini-3.5-flash-lite,simulacion,2398,790,0.009161,3.1
 2026-11-18T03:24:08,gemini-3.5-flash-lite,simulacion,719,171,0.002187,2.3
+2026-11-18T03:53:37,gemini-3.5-flash-lite,simulacion,2400,752,0.00884,4.3
+2026-11-18T03:53:40,gemini-3.5-flash-lite,simulacion,718,261,0.002951,2.2
+2026-11-18T03:54:29,gemini-3.5-flash-lite,simulacion,2390,1182,0.012485,4.7
+2026-11-18T03:54:30,gemini-3.5-flash-lite,simulacion,729,252,0.002886,1.7
