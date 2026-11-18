@@ -20,6 +20,7 @@ import folium
 import geopandas as gpd
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 from streamlit_folium import st_folium
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -56,7 +57,14 @@ st.markdown("""
   .cita {font-size: 0.97rem; line-height: 1.45;}
   .cita-perfil {color: #52514e; font-size: 0.82rem;}
   [data-testid="stMetricValue"] {font-size: 1.7rem;}
+  /* oculta el componente invisible de abajo (sin dejar hueco); su script igual se ejecuta */
+  [data-testid="stElementContainer"]:has(iframe[srcdoc*="translate"]) {display: none;}
 </style>""", unsafe_allow_html=True)
+
+# Streamlit marca la página como inglés (lang="en"). Así el navegador puede ofrecer "traducirla" y
+# desordenar el texto. La marcamos como español y como "no traducir".
+components.html("<script>const d = window.parent.document.documentElement;"
+                "d.lang = 'es'; d.setAttribute('translate', 'no');</script>", height=0)
 
 
 def estilo(grafico):
@@ -144,7 +152,7 @@ with tab1:
     area = prom[prom["tipo"] == "Área"].set_index("segmento")
 
     st.markdown(f"Le pedimos a la IA que responda como **{int(nac['n'])} hogares reales** de la ENAHO 2024 "
-                "(sorteados según su peso `factor07`) **sin ver sus respuestas reales**, y comparamos.")
+                "(sorteados según su factor de expansión) **sin ver sus respuestas reales**, y comparamos.")
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Error medio nacional", f"{nac['error_pp']:.1f} pp", help="Promedio de |% sintético − % real| en las 5 preguntas")
     c2.metric("Error en zona urbana", f"{area.loc['Urbano', 'error_pp']:.1f} pp")
@@ -201,7 +209,7 @@ with tab1:
         dom = prom[prom["tipo"] == "Dominio"].copy()
         dom["etiqueta"] = dom.apply(lambda r: f"{r['segmento']} (n={int(r['n'])})", axis=1)
         g = alt.Chart(dom).encode(
-            y=alt.Y("etiqueta:N", sort="-x", title=None),
+            y=alt.Y("etiqueta:N", sort="-x", title=None, axis=alt.Axis(labelLimit=260)),
             x=alt.X("error_pp:Q", title="Error medio (pp)"))
         g = g.mark_bar(cornerRadiusEnd=4, height=16, color=TINTA_2).encode(
             tooltip=[alt.Tooltip("segmento:N", title="Dominio"), alt.Tooltip("n:Q", title="Hogares"),
@@ -220,7 +228,7 @@ with tab1:
             "accuracy": "Acierto por hogar (%)"})
         st.dataframe(tabla, hide_index=True, width="stretch",
                      column_config={c: st.column_config.NumberColumn(format="%.1f") for c in tabla.columns[3:]})
-        st.markdown("Método completo en `docs/validacion.md`.")
+        st.markdown("El método completo está en el archivo docs/validacion.md del repositorio.")
 
 
 # ================================================================ PESTAÑA 2
@@ -240,7 +248,7 @@ def grafico_distribucion(tabla, opciones, margen):
     d = d.set_index("respuesta").reindex(opciones).fillna({"n": 0, "pct": 0}).reset_index()
     d["bajo"] = (d["pct"] - (margen or 0)).clip(lower=0)
     d["alto"] = (d["pct"] + (margen or 0)).clip(upper=100)
-    base = alt.Chart(d).encode(y=alt.Y("respuesta:N", sort=opciones, title=None))
+    base = alt.Chart(d).encode(y=alt.Y("respuesta:N", sort=opciones, title=None, axis=alt.Axis(labelLimit=260)))
     barras = base.mark_bar(cornerRadiusEnd=4, height=22).encode(
         x=alt.X("pct:Q", title="% de encuestados sintéticos", scale=alt.Scale(domain=[0, 100])),
         color=alt.Color("respuesta:N", scale=colores_opciones(opciones), legend=None),
@@ -257,7 +265,7 @@ def grafico_distribucion(tabla, opciones, margen):
 def grafico_cortes(tabla, opciones, por, orden_segmentos=None):
     d = tabla_porcentajes(tabla, opciones, por)
     g = alt.Chart(d).mark_bar(height=20).encode(
-        y=alt.Y(f"{por}:N", sort=orden_segmentos, title=None),
+        y=alt.Y(f"{por}:N", sort=orden_segmentos, title=None, axis=alt.Axis(labelLimit=260)),
         x=alt.X("pct:Q", stack="normalize", title="% de respuestas", axis=alt.Axis(format="%")),
         color=alt.Color("respuesta:N", scale=colores_opciones(opciones), title=None),
         order=alt.Order("orden:Q"),
@@ -376,7 +384,7 @@ def mostrar_resultado(r):
         comp = pd.concat([tabla_porcentajes(a, opciones).assign(version="A"),
                           tabla_porcentajes(b, opciones).assign(version="B")])
         base = alt.Chart(comp).encode(
-            y=alt.Y("respuesta:N", sort=opciones, title=None),
+            y=alt.Y("respuesta:N", sort=opciones, title=None, axis=alt.Axis(labelLimit=260)),
             yOffset=alt.YOffset("version:N"),
             x=alt.X("pct:Q", title="% de encuestados sintéticos", scale=alt.Scale(domain=[0, 105])))
         g = base.mark_bar(cornerRadiusEnd=4, height=14).encode(
@@ -393,7 +401,7 @@ def mostrar_resultado(r):
         col = CORTES[por]
         ne = pd.concat([t.assign(version=v, ne=(t["respuesta"] == NO_ENTIENDO) * 100.0) for v, t in tablas.items()])
         ne = ne.groupby([col, "version"])["ne"].agg(pct="mean", n="size").reset_index()
-        g2 = alt.Chart(ne).encode(y=alt.Y(f"{col}:N", title=None), yOffset="version:N",
+        g2 = alt.Chart(ne).encode(y=alt.Y(f"{col}:N", title=None, axis=alt.Axis(labelLimit=260)), yOffset="version:N",
                                   x=alt.X("pct:Q", title=f"% «{NO_ENTIENDO}»"))
         g2 = g2.mark_bar(cornerRadiusEnd=4).encode(
             color=alt.Color("version:N", scale=alt.Scale(domain=["A", "B"], range=[AZUL, NARANJA]),
@@ -451,7 +459,7 @@ with tab2:
 
     hay_clave = bool(os.getenv("GEMINI_API_KEY"))
     if not hay_clave:
-        st.warning("No hay `GEMINI_API_KEY` configurada: puedes ver el ejemplo precargado, pero no simular en vivo.")
+        st.warning("No hay clave de Gemini configurada: puedes ver el ejemplo precargado, pero no simular en vivo.")
 
     modo = st.radio("Modo", ["Una pregunta", "Prueba A/B de redacción"], horizontal=True, label_visibility="collapsed")
     ab = modo != "Una pregunta"
@@ -539,12 +547,13 @@ with tab3:
         digraph {
           rankdir=TB; bgcolor="transparent";
           node [shape=box, style="rounded,filled", fillcolor="#f3f2ef", color="#d6d5d0", fontname="Helvetica", fontsize=11, margin="0.2,0.1"];
-          edge [color="#8f8e89", fontname="Helvetica", fontsize=9, fontcolor="#52514e"];
+          edge [color="#52514e", penwidth=1.4, arrowsize=0.8, fontname="Helvetica", fontsize=9, fontcolor="#52514e"];
           enaho [label="ENAHO 2024 (INEI)\\nmódulos 01, 02, 03, 34", fillcolor="#e7f0fb", color="#2a78d6"];
           perfiles [label="3,000 perfiles de hogares\\n(sin identificadores)"];
           validar [label="Validación: 400 hogares\\nIA vs respuesta real"];
           error [label="Error por segmento\\n(pestaña 1 y margen)", fillcolor="#fdebe3", color="#eb6834"];
-          usuario [label="Tu pregunta + segmento + N"];
+          usuario [label="Tu pregunta + segmento + N", fillcolor="#e7f0fb", color="#2a78d6"];
+          { rank=same; enaho; usuario; }
           revisor [label="Revisor de preguntas\\n(Gemini)"];
           muestreo [label="Sorteo de N hogares\\nponderado por factor07"];
           llm [label="Gemini responde como cada hogar\\n25 por llamada · salida JSON"];
@@ -565,9 +574,9 @@ with tab3:
                            f"de salida en {uso_100['llamadas']} llamadas (ejemplo precargado). Todas las llamadas "
                            "quedan en data/registro_tokens.csv")
             st.markdown(
-                f"- **Modelo:** `{MODELO}` (Google Gemini, plan gratuito), con salida estructurada en JSON validada con Pydantic.\n"
+                f"- **Modelo:** {MODELO} (Google Gemini, plan gratuito), con salida estructurada en JSON validada con Pydantic.\n"
                 f"- **Por qué:** es estable, rápido (~4 s por llamada de {POR_LLAMADA} hogares) y barato. Probamos "
-                "`gemini-3.8-flash`, pero no respondía y `gemini-3.6-flash` estaba saturado: para un demo en vivo "
+                "gemini-3.8-flash, pero no respondía, y gemini-3.6-flash estaba saturado: para un demo en vivo "
                 "pesa más la confiabilidad.\n"
                 f"- **Tokens por llamada ({POR_LLAMADA} hogares):** ~{por_llamada['tokens_entrada']:,.0f} de entrada y "
                 f"~{por_llamada['tokens_salida']:,.0f} de salida.\n"
