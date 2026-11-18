@@ -4,14 +4,16 @@ Prepara data/perfiles.parquet a partir de la ENAHO 2024 (INEI, código 966).
 Qué hace (en orden):
   1. Lee los módulos 01 (vivienda/hogar), 02 (miembros), 03 (educación) y 34 (sumaria)
      desde datos_crudos/ (esa carpeta NO se sube a GitHub).
-  2. Se queda solo con encuestas completas (result == 1).
+  2. Se queda con las encuestas completas e incompletas (result 1 y 2), lo estándar en la ENAHO para
+     variables del hogar: las incompletas tienen el módulo de hogar respondido y son sobre todo de Lima
+     (excluirlas dejaba a Lima Metropolitana con 16.8% de los hogares en vez de 32.5%).
   3. Arma el perfil de cada hogar: departamento, dominio, área, tamaño, gasto per cápita,
      quintil de gasto, pobreza y datos del jefe(a) de hogar (sexo, edad, educación).
   4. Agrega las 5 respuestas REALES de validación (celular, internet, TV cable, agua de red
      pública y cocinar con gas). Se usan en ai/validar.py para medir el error de la IA.
   5. Toma una muestra aleatoria simple de 3,000 hogares y guarda el parquet SIN
      identificadores (sin conglome/vivienda/hogar ni ubigeo completo).
-  6. Imprime un chequeo: % ponderado (factor07) con internet y celular, ENAHO completa vs muestra.
+  6. Imprime un chequeo: % ponderado (factor07) de las 5 preguntas, ENAHO vs muestra.
 
 Sobre los pesos: la muestra de 3,000 es uniforme, así que conserva el diseño de la ENAHO
 (que sobrerrepresenta zonas rurales y departamentos chicos). Por eso, en cualquier cálculo
@@ -89,7 +91,7 @@ def main():
     m01 = leer("mod01/966-Modulo01/enaho01-2024-100.dta",
                LLAVE + ["ubigeo", "dominio", "estrato", "result", "factor07",
                         "p1142", "p1144", "p114b1", "p1143", "p110", "p113a"])
-    m01 = m01[m01["result"] == 1].copy()  # solo encuestas completas
+    m01 = m01[m01["result"].isin([1, 2])].copy()  # 1 = completa, 2 = incompleta (hogar respondido)
 
     # ---------- 2. Sumaria (mód. 34): tamaño, gasto y pobreza ----------
     sumaria = leer("mod34/966-Modulo34/sumaria-2024.dta",
@@ -145,7 +147,7 @@ def main():
     muestra.to_parquet(SALIDA, index=False)
 
     # ---------- 7. Chequeo de razonabilidad ----------
-    print(f"Hogares completos en la ENAHO 2024: {len(p):,}  |  muestra guardada: {len(muestra):,}")
+    print(f"Hogares (result 1 y 2) en la ENAHO 2024: {len(p):,}  |  muestra guardada: {len(muestra):,}")
     print(f"Archivo: {SALIDA.relative_to(RAIZ)}\n")
     print(f"{'Indicador (% hogares, ponderado)':38}{'ENAHO':>8}{'Muestra':>9}{'Urbano':>8}{'Rural':>7}")
     for col in ["real_celular", "real_internet", "real_internet_fijo",
