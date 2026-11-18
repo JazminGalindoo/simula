@@ -192,8 +192,9 @@ with tab1:
         coro.geojson.add_child(folium.GeoJsonTooltip(fields=["NOMBDEP", "error_txt", "n_txt"],
                                                      aliases=["Departamento", "Error medio", "Muestra"]))
         st_folium(mapa, height=470, use_container_width=True, returned_objects=[])
-        st.caption("Pasa el cursor sobre un departamento. Con 200 hogares, varios departamentos tienen menos "
-                   "de 10 casos: su error es orientativo.")
+        pocos = int((deps["n"] < 10).sum())
+        st.caption(f"Pasa el cursor sobre un departamento. Con {int(nac['n'])} hogares, {pocos} departamentos tienen "
+                   "menos de 10 casos: su error es orientativo.")
     with col_dom:
         st.subheader("Error por dominio")
         dom = prom[prom["tipo"] == "Dominio"].copy()
@@ -207,7 +208,8 @@ with tab1:
                      alt.Tooltip("accuracy:Q", title="Acierto (%)", format=".0f")]) + \
             g.mark_text(align="left", dx=4, fontSize=11, color=TINTA_2).encode(text=alt.Text("error_pp:Q", format=".1f"))
         st.altair_chart(estilo(g.properties(height=330)), width="stretch")
-        st.caption("Promedio de las 5 preguntas. Costa sur tiene muy pocos hogares en la muestra.")
+        chicos = dom[dom["n"] < 20]["segmento"].tolist()
+        st.caption("Promedio de las 5 preguntas." + (f" Con pocos hogares en la muestra: {', '.join(chicos)}." if chicos else ""))
 
     with st.expander("Ver la tabla completa por pregunta"):
         tabla = res[["texto_pregunta", "variable_enaho", "n", "pct_real_enaho", "pct_real", "pct_sintetico",
@@ -332,10 +334,10 @@ def mostrar_resultado(r):
     c2.metric("Margen de error empírico", f"± {margen:.0f} pp" if margen else "—",
               help=f"Error medio medido contra la ENAHO para «{r['segmento']}» (n={n_val} hogares en la validación). "
                    "Es cuánto se alejó la IA de la realidad en preguntas de tenencia de servicios.")
-    c3.metric("Costo de esta simulación", f"S/ {uso['costo_soles']:.3f}" if uso["llamadas"] else "S/ 0 (caché)",
+    c3.metric("Costo de esta simulación", f"S/ {uso['costo_soles']:.3f}",
               help=f"{uso['tokens_entrada']:,} tokens de entrada + {uso['tokens_salida']:,} de salida, "
                    f"{uso['llamadas']} llamadas a {MODELO}. Precio pagado; en el plan gratuito es S/ 0.")
-    c4.metric("Tiempo", f"{uso['segundos']:.0f} s" if uso["llamadas"] else "—")
+    c4.metric("Tiempo", f"{uso['segundos']:.0f} s" if uso["segundos"] else "al instante (caché)")
     if margen and n_val < 20:
         st.caption(f"⚠️ El margen de «{r['segmento']}» se midió con solo {n_val} hogares: tómalo como referencia.")
 
@@ -527,6 +529,7 @@ with tab2:
 
 # ================================================================ PESTAÑA 3
 with tab3:
+    res, _ = datos_validacion()
     izq, der = st.columns([1.2, 1])
     with izq:
         st.subheader("El flujo")
@@ -537,7 +540,7 @@ with tab3:
           edge [color="#8f8e89", fontname="Helvetica", fontsize=9, fontcolor="#52514e"];
           enaho [label="ENAHO 2024 (INEI)\\nmódulos 01, 02, 03, 34", fillcolor="#e7f0fb", color="#2a78d6"];
           perfiles [label="3,000 perfiles de hogares\\n(sin identificadores)"];
-          validar [label="Validación: 200 hogares\\nIA vs respuesta real"];
+          validar [label="Validación: 400 hogares\\nIA vs respuesta real"];
           error [label="Error por segmento\\n(pestaña 1 y margen)", fillcolor="#fdebe3", color="#eb6834"];
           usuario [label="Tu pregunta + segmento + N"];
           revisor [label="Revisor de preguntas\\n(Gemini)"];
@@ -568,8 +571,8 @@ with tab3:
                 f"~{por_llamada['tokens_salida']:,.0f} de salida.\n"
                 f"- **Precio pagado:** US$ {PRECIO_ENTRADA_USD} / US$ {PRECIO_SALIDA_USD} por millón de tokens "
                 f"(entrada/salida), tipo de cambio S/ {TIPO_CAMBIO}. En el plan gratuito pagamos S/ 0.\n"
-                f"- **Validación completa** (200 hogares × 5 preguntas): "
-                f"S/ {reg[reg['tarea'].str.startswith('validacion')]['costo_soles'].sum():.2f}.")
+                f"- **Validación completa** ({int(res['n'].max())} hogares × 5 preguntas, {int(res['llamadas'].sum())} "
+                f"llamadas): S/ {res['costo_soles'].sum():.2f}.")
     st.subheader("Limitaciones (honestas)")
     st.markdown(
         "- **La IA no reemplaza el campo.** Sirve para pilotear: detectar preguntas confusas y comparar redacciones "
@@ -578,7 +581,8 @@ with tab3:
         "En opiniones, precios o marcas el error puede ser distinto, y no lo hemos medido.\n"
         "- **La IA tiene sesgos visibles:** sobreestima el acceso a internet fijo y TV cable (imagina un Perú más "
         "conectado) y subestima el agua de red pública.\n"
-        "- **Muestra de validación chica:** 200 hogares; por departamento hay pocos casos y el mapa es orientativo.\n"
+        f"- **Muestra de validación acotada:** {int(res['n'].max())} hogares; por departamento hay pocos casos y el "
+        "mapa es orientativo.\n"
         "- **Los perfiles son de 2024** y solo describen al hogar y a su jefe(a), no a cada persona.\n"
         "- Los encuestados sintéticos responden en lotes de 25: el modelo puede \"contagiarse\" entre hogares del mismo lote.")
     st.caption("Datos: ENAHO 2024, INEI (código 966). Mapa: GeoJSON departamental del curso Data Science con Python (UP).")

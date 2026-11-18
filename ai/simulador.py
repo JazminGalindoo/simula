@@ -184,7 +184,7 @@ def simular(pregunta: str, opciones: list[str], hogares: pd.DataFrame,
     esquema = _esquema_lote(opciones)
 
     filas, uso_total = [], {"tokens_entrada": 0, "tokens_salida": 0, "costo_soles": 0.0,
-                            "llamadas": 0, "segundos": 0.0}
+                            "llamadas": 0, "desde_cache": 0, "segundos": 0.0}
 
     def preguntar(lote):
         """Una llamada para un lote de hogares; agrega sus respuestas a `filas`."""
@@ -195,10 +195,15 @@ def simular(pregunta: str, opciones: list[str], hogares: pd.DataFrame,
             if r.id_perfil in fichas:  # descartamos ids inventados
                 filas.append({"id_perfil": r.id_perfil, "respuesta": r.respuesta,
                               "justificacion": r.justificacion})
-        if not uso["desde_cache"]:
-            uso_total["llamadas"] += 1
-            for k in ("tokens_entrada", "tokens_salida", "costo_soles", "segundos"):
-                uso_total[k] += uso[k]
+        # Sumamos tokens y costo también si vino de caché (la caché guarda el costo original):
+        # así el costo de una simulación es el mismo la primera vez y las siguientes.
+        uso_total["llamadas"] += 1
+        for k in ("tokens_entrada", "tokens_salida", "costo_soles"):
+            uso_total[k] += uso[k]
+        if uso["desde_cache"]:
+            uso_total["desde_cache"] += 1
+        else:
+            uso_total["segundos"] += uso["segundos"]
 
     for inicio in range(0, len(hogares), POR_LLAMADA):
         preguntar(hogares.iloc[inicio:inicio + POR_LLAMADA])

@@ -1,7 +1,7 @@
 """
 Validación de Simula: ¿cuánto se equivoca la IA respondiendo como hogares peruanos?
 
-1. Sortea 200 hogares de data/perfiles.parquet con probabilidad proporcional a factor07
+1. Sortea 400 hogares de data/perfiles.parquet con probabilidad proporcional a factor07
    (así la muestra representa a los hogares del Perú y cada hogar "pesa" lo mismo).
 2. Para cada una de las 5 preguntas de la ENAHO, el LLM responde Sí/No como cada hogar,
    SIN ver la respuesta real (las columnas real_* no entran en la ficha del hogar).
@@ -19,15 +19,25 @@ Uso:  python -m ai.validar
 import pandas as pd
 
 from ai.prompts import PREGUNTAS_VALIDACION
-from ai.simulador import MODELO, RAIZ, REGISTRO, cargar_perfiles, muestrear, simular
+from ai.simulador import MODELO, RAIZ, cargar_perfiles, muestrear, simular
 
-N_HOGARES = 200
+N_HOGARES = 400
 SEMILLA = 2026
+NOMBRES = {"celular": "celular", "internet_fijo": "internet fijo", "tv_cable": "TV cable",
+           "agua_red": "agua de red pública", "gas": "cocina a gas"}
 
 
 def pct_ponderado(df, columna):
     d = df[df[columna].notna()]
     return 100 * (d[columna] * d["factor07"]).sum() / d["factor07"].sum()
+
+
+def enumerar(nombres):
+    """['a', 'b', 'c'] → 'a, b y c'."""
+    nombres = list(nombres)
+    if not nombres:
+        return "ninguna pregunta"
+    return nombres[0] if len(nombres) == 1 else ", ".join(nombres[:-1]) + " y " + nombres[-1]
 
 
 def resumir(grupo):
@@ -45,14 +55,13 @@ def main():
     hogares = muestrear(perfiles, N_HOGARES, semilla=SEMILLA)
 
     # ---------- 1. El LLM responde las 5 preguntas ----------
-    filas, uso_total = [], {"tokens_entrada": 0, "tokens_salida": 0, "costo_soles": 0.0, "llamadas": 0}
+    filas, usos = [], []
     for p in PREGUNTAS_VALIDACION:
         base = hogares[hogares[p["columna"]].notna()]  # gas: excluye hogares que no cocinan
         print(f"Simulando '{p['clave']}' con {len(base)} hogares…")
         tabla, uso = simular(p["pregunta"], ["Sí", "No"], base, permitir_no_entiendo=False,
-                             tarea=f"validacion_{p['clave']}")
-        for k in uso_total:
-            uso_total[k] += uso[k]
+                             tarea=f"validacion{N_HOGARES}_{p['clave']}")
+        usos.append(uso)
         tabla["pregunta"] = p["clave"]
         tabla["texto_pregunta"] = p["pregunta"]
         tabla["real"] = tabla[p["columna"]].astype(int)
@@ -71,6 +80,9 @@ def main():
     resultados["pct_real_enaho"] = [pct_ponderado(perfiles, p["columna"]) for p in PREGUNTAS_VALIDACION]
     resultados["texto_pregunta"] = [p["pregunta"] for p in PREGUNTAS_VALIDACION]
     resultados["variable_enaho"] = [p["variable_enaho"] for p in PREGUNTAS_VALIDACION]
+    # Costo real por pregunta (tokens de cada llamada; la caché guarda el costo original)
+    for k in ("llamadas", "tokens_entrada", "tokens_salida", "costo_soles"):
+        resultados[k] = [u[k] for u in usos]
 
     # ---------- 3. Error por segmento: nacional, área, dominio y departamento ----------
     cortes = {"Nacional": None, "Área": "area", "Dominio": "dominio", "Departamento": "departamento"}
@@ -97,18 +109,15 @@ def main():
     # ---------- 4. Guardar ----------
     datos = RAIZ / "data"
     redondear = lambda d: d.round(2)
-    redondear(resultados).to_csv(datos / "validacion_resultados.csv", index=False)
+    redondear(resultados).assign(costo_soles=resultados["costo_soles"].round(4)).to_csv(datos / "validacion_resultados.csv", index=False)
     redondear(por_segmento).to_csv(datos / "validacion_por_segmento.csv", index=False)
     respuestas.to_csv(datos / "validacion_respuestas.csv", index=False)
-    # Costo total de la validación, sumando las llamadas reales anotadas (sirve aunque hoy todo saliera de caché)
-    registro = pd.read_csv(REGISTRO)
-    registro = registro[registro["tarea"].str.startswith("validacion")]
-    costo = {"llamadas": len(registro), "tokens_entrada": int(registro["tokens_entrada"].sum()),
-             "tokens_salida": int(registro["tokens_salida"].sum()), "costo_soles": registro["costo_soles"].sum()}
+    costo = {"llamadas": int(resultados["llamadas"].sum()), "tokens_entrada": int(resultados["tokens_entrada"].sum()),
+             "tokens_salida": int(resultados["tokens_salida"].sum()), "costo_soles": resultados["costo_soles"].sum()}
     escribir_reporte(resultados, por_segmento, costo)
 
     print("\n", resultados[["pregunta", "pct_real", "pct_sintetico", "error_pp", "accuracy"]].round(1).to_string())
-    print("\nUso (solo llamadas nuevas):", uso_total)
+    print("\nCosto total:", costo, "| llamadas que salieron de caché:", sum(u["desde_cache"] for u in usos))
 
 
 def escribir_reporte(resultados, por_segmento, uso):
@@ -118,7 +127,12 @@ def escribir_reporte(resultados, por_segmento, uso):
     area = prom[prom["tipo"] == "Área"].set_index("segmento")
     dom = prom[prom["tipo"] == "Dominio"].sort_values("error_pp", ascending=False)
     dom_confiable = dom[dom["n"] >= 10]  # para las conclusiones, solo dominios con 10+ hogares
-    deps = prom[(prom["tipo"] == "Departamento") & (prom["n"] >= 8)].sort_values("error_pp", ascending=False)
+    deps = prom[(prom["tipo"] == "Departamento") & (prom["n"] >= 10)].sort_values("error_pp", ascending=False)
+    pocos = int((prom[prom["tipo"] == "Departamento"]["n"] < 10).sum())
+    # Sesgo: preguntas donde la IA se pasa (o se queda corta) por más de 5 pp
+    dif = resultados.assign(dif=resultados["pct_sintetico"] - resultados["pct_real"],
+                            nombre=resultados["pregunta"].map(NOMBRES))
+    sobre, sub = enumerar(dif[dif["dif"] > 5]["nombre"]), enumerar(dif[dif["dif"] < -5]["nombre"])
     peor, mejor = resultados.loc[resultados["error_pp"].idxmax()], resultados.loc[resultados["error_pp"].idxmin()]
 
     tabla_preg = "\n".join(
@@ -162,7 +176,7 @@ Generado por `ai/validar.py`. Modelo: `{MODELO}`. Fuente: ENAHO 2024 (INEI).
 |---|---|---|---|
 {tabla_seg(dom)}
 
-## Departamentos con mayor error (con al menos 8 hogares en la muestra)
+## Departamentos con mayor error (con al menos 10 hogares en la muestra)
 
 | Departamento | n hogares | Error medio (pp) | Accuracy |
 |---|---|---|---|
@@ -177,18 +191,17 @@ Generado por `ai/validar.py`. Modelo: `{MODELO}`. Fuente: ENAHO 2024 (INEI).
 - Entre los dominios con 10+ hogares, el de mayor error es **{dom_confiable.iloc[0].segmento}**
   ({dom_confiable.iloc[0].error_pp:.1f} pp) y el de menor error, **{dom_confiable.iloc[-1].segmento}**
   ({dom_confiable.iloc[-1].error_pp:.1f} pp).
-- Sesgo: la IA tiende a **sobreestimar** los servicios que dependen de ingresos e infraestructura
-  (internet fijo, TV cable) y a subestimar el agua de red pública. Imagina un Perú con más internet y menos agua.
+- Sesgo (diferencias de más de 5 pp): la IA **sobreestima** {sobre} y **subestima** {sub}.
 
 ## Limitaciones
 
-- 200 hogares: a nivel de departamento hay pocos casos (muchos con menos de 10), así que ese error es ruidoso.
+- {N_HOGARES} hogares: {pocos} de los 25 departamentos tienen menos de 10 casos, así que su error es ruidoso.
   El mapa de la app muestra el n de cada departamento.
 - Son preguntas de **tenencia de servicios**, que la ficha del hogar ayuda a predecir. Preguntas de opinión,
   intención de compra o precios pueden tener errores distintos; este número es una referencia, no una garantía.
 - Un solo modelo (`{MODELO}`) y una sola corrida (temperatura 1.0).
 
-Costo de la validación (según `data/registro_tokens.csv`): {uso['llamadas']} llamadas, {uso['tokens_entrada']:,} tokens
+Costo de la validación (tokens reales de cada llamada): {uso['llamadas']} llamadas, {uso['tokens_entrada']:,} tokens
 de entrada y {uso['tokens_salida']:,} de salida ≈ S/ {uso['costo_soles']:.2f} a precio pagado (S/ 0 en el plan gratuito).
 """
     (RAIZ / "docs" / "validacion.md").write_text(texto, encoding="utf-8")
