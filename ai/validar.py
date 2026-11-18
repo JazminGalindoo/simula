@@ -76,7 +76,7 @@ def main():
 
     # ---------- 2. Resultados por pregunta (nivel nacional) ----------
     resultados = respuestas.groupby("pregunta", sort=False).apply(resumir, include_groups=False).reset_index()
-    # Referencia: % real en los 3,000 perfiles ponderados por factor07 (≈ ENAHO completa)
+    # Referencia: % real en los 3,000 perfiles ponderados por factor07 (≈ toda la ENAHO)
     resultados["pct_real_enaho"] = [pct_ponderado(perfiles, p["columna"]) for p in PREGUNTAS_VALIDACION]
     resultados["texto_pregunta"] = [p["pregunta"] for p in PREGUNTAS_VALIDACION]
     resultados["variable_enaho"] = [p["variable_enaho"] for p in PREGUNTAS_VALIDACION]

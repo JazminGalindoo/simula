@@ -69,15 +69,15 @@ ENAHO y lo muestra junto a cada resultado. Ese es nuestro resultado propio ([doc
 
 | Pregunta (ENAHO 2024, 400 hogares) | % real | % IA | Error |
 |---|---|---|---|
-| ¿En tu hogar alguien tiene teléfono celular? (`p1142`) | 92.2% | 93.8% | **1.5 pp** |
-| ¿Tu hogar tiene internet fijo (wifi o cable)? (`p114b1`) | 19.5% | 50.5% | **31.0 pp** |
-| ¿Tu hogar tiene TV por cable o satelital? (`p1143`) | 23.0% | 48.0% | **25.0 pp** |
-| ¿El agua viene principalmente de la red pública? (`p110`) | 83.5% | 68.5% | **15.0 pp** |
-| ¿Cocinan principalmente con gas? (`p113a`) | 67.0% | 77.7% | **10.7 pp** |
+| ¿En tu hogar alguien tiene teléfono celular? (`p1142`) | 96.5% | 96.0% | **0.5 pp** |
+| ¿Tu hogar tiene internet fijo (wifi o cable)? (`p114b1`) | 27.0% | 58.5% | **31.5 pp** |
+| ¿Tu hogar tiene TV por cable o satelital? (`p1143`) | 30.3% | 55.3% | **25.0 pp** |
+| ¿El agua viene principalmente de la red pública? (`p110`) | 87.8% | 77.5% | **10.3 pp** |
+| ¿Cocinan principalmente con gas? (`p113a`) | 77.5% | 84.3% | **6.8 pp** |
 
-- **Error medio nacional: 16.6 puntos** (urbano 22.1, rural 15.7); la IA acierta la respuesta del hogar en el 73% de los casos.
+- **Error medio nacional: 14.8 puntos** (urbano 18.1, rural 18.6); la IA acierta la respuesta del hogar en el 76% de los casos.
 - **La IA imagina un Perú más conectado de lo que es:** sobreestima internet fijo, TV cable y gas, y subestima el agua de red pública.
-- El dominio con más error es **Costa centro** (26.9 pp) y el de menos, **Selva** (16.0 pp).
+- Entre los dominios con 10 o más hogares, el de más error es **Sierra norte** (18.3 pp) y el de menos, **Lima Metropolitana** (12.7 pp).
 
 Por eso Simula **no vende la IA como verdad**: la vende como un **piloto rápido con su margen de error a la vista**.
 
@@ -101,7 +101,7 @@ Por eso Simula **no vende la IA como verdad**: la vende como un **piloto rápido
 | ![Pestaña 1](docs/capturas/1_validacion.png) | ![Pestaña 2](docs/capturas/2_simulacion.png) | ![Prueba A/B](docs/capturas/3_prueba_ab.png) |
 
 En el ejemplo precargado, la versión *"¿Pagarías S/ 20 al mes por tener internet fijo (wifi) en tu casa?"* tiene
-**4%** de "No entiendo"; la versión con *"plan de banda ancha fija FTTH"* sube a **30%**, con los mismos 100 hogares.
+**4%** de "No entiendo"; la versión con *"plan de banda ancha fija FTTH"* sube a **29%**, con los mismos 100 hogares.
 
 ### Cómo correrlo en local
 
@@ -152,7 +152,7 @@ Versión detallada: [docs/arquitectura.md](docs/arquitectura.md).
 
 | Unidad | Costo |
 |---|---|
-| 100 encuestados × 1 pregunta (4 llamadas, ~9,600 tokens de entrada y ~4,800 de salida) | **S/ 0.051** |
+| 100 encuestados × 1 pregunta (4 llamadas, ~9,500 tokens de entrada y ~4,800 de salida) | **S/ 0.051** |
 | Revisar una pregunta | **S/ 0.002** |
 
 **Planes** (los precios incluyen IGV; precio de estudiante según las entrevistas, que mencionaron **S/ 20–60 por estudio**):
@@ -165,7 +165,7 @@ Versión detallada: [docs/arquitectura.md](docs/arquitectura.md).
 | Costo en tokens | S/ 0.09 | S/ 0.72 | S/ 12.51 al mes |
 | Precio sin IGV (÷ 1.18) | — | S/ 24.58 | S/ 330.51 |
 | Comisión de pago (supuesto 5%) | — | S/ 1.45 | S/ 19.50 |
-| **Margen de contribución** | **−S/ 0.09** (costo de adquisición) | **S/ 22.41 (91%)** | **S/ 298.50 (90%)** |
+| **Margen de contribución** | **−S/ 0.09** (costo de adquisición) | **S/ 22.41 (91%)** | **S/ 298.49 (90%)** |
 
 - **S/ 29** está en el rango que dieron los estudiantes y cerca de los "unos S/ 30 en general" de la [entrevista 1](docs/research/entrevista_1.md).
 - **El plan Empresa es una hipótesis:** la entrevistada de retail no dio un monto. Lo que sí sabemos es que ya gasta
@@ -191,7 +191,7 @@ Versión detallada: [docs/arquitectura.md](docs/arquitectura.md).
 
 ### Riesgos
 
-- **La IA se equivoca** (16.6 pp en promedio): la mitigación es mostrar el error siempre y venderla como piloto, no como resultado final.
+- **La IA se equivoca** (14.8 pp en promedio): la mitigación es mostrar el error siempre y venderla como piloto, no como resultado final.
 - **El error en opinión y precios no está medido:** el siguiente paso es validar con preguntas de ese tipo.
 - **Dependencia de un proveedor:** el código aísla la llamada al LLM, así que cambiar de modelo se hace en un solo archivo.
 
@@ -203,7 +203,7 @@ Versión detallada: [docs/arquitectura.md](docs/arquitectura.md).
 | **Dashboards con Streamlit** (05) | [app/streamlit_app.py](app/streamlit_app.py): 3 pestañas, métricas, gráficos Altair, descarga CSV, `st.cache_data`, `session_state` |
 | **Mapas con GeoPandas / Folium** (06) | [app/streamlit_app.py](app/streamlit_app.py), pestaña 1: GeoJSON del curso leído con GeoPandas, unido por `FIRST_IDDP` y pintado con `folium.Choropleth` |
 | **Evaluación y despliegue de productos de datos** (12) | [ai/validar.py](ai/validar.py) y [docs/validacion.md](docs/validacion.md) (IA vs ENAHO por segmento); registro de costo en `data/registro_tokens.csv`; despliegue en Streamlit Community Cloud con Secrets y `requirements.txt` fijado |
-| Preparación de datos con pandas | [scripts/preparar_perfiles.py](scripts/preparar_perfiles.py): une 4 módulos de la ENAHO, quintiles ponderados y muestra sin identificadores |
+| Preparación y exploración de datos con pandas | [scripts/preparar_perfiles.py](scripts/preparar_perfiles.py): une 4 módulos de la ENAHO, quintiles ponderados y muestra sin identificadores; [notebooks/exploracion_enaho.ipynb](notebooks/exploracion_enaho.ipynb): verificación de cada variable y comparación con el INEI |
 
 ## 9. Qué hizo el agente (y qué hice yo)
 
@@ -217,13 +217,17 @@ Usé **Claude Code** como agente de programación. Para ser transparente:
   - En el .dta la variable se llama `p114b1`, aunque el diccionario dice `P1144B1`.
   - El código 9 de `p113a` es bosta/estiércol.
   - Según la Ficha Técnica, urbano = estratos 1–5.
-- La validación de los porcentajes contra el informe TIC del INEI (celular: 94.3% contra 95.1% del INEI).
+- La validación de los porcentajes contra el informe TIC del INEI (celular: 95.1%, igual a la cifra del INEI).
+- El hallazgo de que las encuestas **incompletas** (`result == 2`) tienen el módulo de hogar respondido y son sobre todo
+  de Lima: al excluirlas, Lima Metropolitana pesaba 16.8% de los hogares en vez de 32.5% ([notebook](notebooks/exploracion_enaho.ipynb), sección 9).
 - La búsqueda de los modelos Gemini del plan gratuito y la prueba de cuáles respondían.
 
 **Lo que decidí y revisé yo:**
 - La idea, el problema, el alcance y las reglas del proyecto (`CLAUDE.md`).
 - Usar **internet fijo (`p114b1`)** en lugar de `p1144` como pregunta de validación, para que la prueba fuera exigente.
 - Subir la validación de 200 a **400 hogares**.
+- **Incluir las encuestas incompletas** (`result` 1 y 2), lo estándar en la ENAHO para variables del hogar, y rehacer
+  perfiles, validación y ejemplo con ese criterio.
 - Las **4 entrevistas**: las hice yo y escribí las notas. El agente solo corrigió una inconsistencia en el resumen.
 - El rango de precios a partir de lo que dijeron los entrevistados, y la revisión de cada resultado antes de cada commit.
 

@@ -4,7 +4,7 @@
 flowchart LR
     subgraph datos["1 · Datos (una vez, en local)"]
         ENAHO[("ENAHO 2024 · INEI<br/>módulos 01, 02, 03, 34<br/>datos_crudos/ · no se sube")]
-        PREP["scripts/preparar_perfiles.py<br/>une módulos · solo encuestas completas"]
+        PREP["scripts/preparar_perfiles.py<br/>une módulos · encuestas completas e incompletas"]
         PERF[("data/perfiles.parquet<br/>3,000 hogares sin IDs<br/>perfil + factor07 + 5 respuestas reales")]
         ENAHO --> PREP --> PERF
     end
