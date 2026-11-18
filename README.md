@@ -17,6 +17,18 @@ notebooks/                # exploración de la ENAHO 2024
 scripts/                  # preparación de perfiles de hogares
 ```
 
+## Cómo correrlo en local
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate         # en Mac/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+copy .env.example .env          # y pega tu GEMINI_API_KEY
+streamlit run app/streamlit_app.py
+```
+
+Sin clave de Gemini la app igual abre: muestra la validación y el ejemplo precargado.
+
 ## Licencia
 
 MIT
