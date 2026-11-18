@@ -16,65 +16,65 @@ Generado por `ai/validar.py`. Modelo: `gemini-3.5-flash-lite`. Fuente: ENAHO 202
 
 | Pregunta | Variable | n | % real ENAHO (3,000 perfiles, ponderado) | % real muestra | % sintético | Error (pp) | Accuracy |
 |---|---|---|---|---|---|---|---|
-| ¿En tu hogar alguien tiene teléfono celular? | `p1142` | 400 | 94.1% | 92.2% | 93.8% | **1.5** | 93% |
-| ¿Tu hogar tiene internet fijo (wifi o cable)? | `p114b1` | 400 | 20.4% | 19.5% | 50.5% | **31.0** | 64% |
-| ¿Tu hogar tiene TV por cable o satelital? | `p1143` | 400 | 24.7% | 23.0% | 48.0% | **25.0** | 61% |
-| ¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)? | `p110` | 400 | 84.0% | 83.5% | 68.5% | **15.0** | 67% |
-| ¿En tu hogar cocinan principalmente con gas (balón o gas natural)? | `p113a` | 391 | 69.5% | 67.0% | 77.7% | **10.7** | 79% |
+| ¿En tu hogar alguien tiene teléfono celular? | `p1142` | 400 | 95.4% | 96.5% | 96.0% | **0.5** | 95% |
+| ¿Tu hogar tiene internet fijo (wifi o cable)? | `p114b1` | 400 | 27.8% | 27.0% | 58.5% | **31.5** | 62% |
+| ¿Tu hogar tiene TV por cable o satelital? | `p1143` | 400 | 30.0% | 30.2% | 55.2% | **25.0** | 60% |
+| ¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)? | `p110` | 400 | 87.3% | 87.8% | 77.5% | **10.2** | 78% |
+| ¿En tu hogar cocinan principalmente con gas (balón o gas natural)? | `p113a` | 395 | 76.4% | 77.5% | 84.3% | **6.8** | 87% |
 
-**Error medio nacional: 16.6 pp** · accuracy media a nivel de hogar: 73%.
+**Error medio nacional: 14.8 pp** · accuracy media a nivel de hogar: 76%.
 
 ## Error por área
 
 | Área | n hogares | Error medio (pp) | Accuracy |
 |---|---|---|---|
-| Rural | 122 | **15.7** | 73% |
-| Urbano | 278 | **22.1** | 73% |
+| Rural | 83 | **18.6** | 72% |
+| Urbano | 317 | **18.1** | 77% |
 
 ## Error por dominio geográfico
 
 | Dominio | n hogares | Error medio (pp) | Accuracy |
 |---|---|---|---|
-| Costa centro | 29 | **26.9** | 69% |
-| Sierra norte | 35 | **20.7** | 72% |
-| Costa sur | 9 | **20.0** | 80% |
-| Lima Metropolitana | 60 | **18.7** | 77% |
-| Sierra sur | 62 | **17.7** | 73% |
-| Sierra centro | 70 | **17.5** | 77% |
-| Costa norte | 61 | **16.1** | 67% |
-| Selva | 74 | **16.0** | 69% |
+| Sierra norte | 23 | **18.3** | 75% |
+| Costa norte | 55 | **18.2** | 73% |
+| Sierra centro | 62 | **18.1** | 75% |
+| Selva | 54 | **17.5** | 68% |
+| Costa centro | 24 | **16.7** | 78% |
+| Sierra sur | 53 | **15.8** | 75% |
+| Costa sur | 9 | **13.3** | 82% |
+| Lima Metropolitana | 120 | **12.7** | 81% |
 
 ## Departamentos con mayor error (con al menos 10 hogares en la muestra)
 
 | Departamento | n hogares | Error medio (pp) | Accuracy |
 |---|---|---|---|
-| Cusco | 28 | **24.3** | 74% |
-| Huancavelica | 10 | **24.0** | 68% |
-| Piura | 18 | **21.5** | 61% |
-| Lima | 64 | **20.7** | 75% |
-| Arequipa | 14 | **20.0** | 71% |
-| Ayacucho | 14 | **20.0** | 77% |
-| Áncash | 17 | **20.0** | 73% |
-| Junín | 34 | **19.5** | 71% |
+| Ucayali | 11 | **30.9** | 62% |
+| Cusco | 12 | **26.7** | 73% |
+| San Martín | 12 | **26.7** | 73% |
+| Lambayeque | 17 | **24.7** | 73% |
+| Junín | 24 | **20.8** | 72% |
+| Huánuco | 14 | **20.0** | 77% |
+| Áncash | 17 | **20.0** | 78% |
+| Cajamarca | 19 | **18.9** | 75% |
 
 ## Conclusiones
 
-- En promedio, el % sintético se aleja **16.6 pp** del real a nivel nacional.
-- La pregunta más difícil para la IA fue **"¿Tu hogar tiene internet fijo (wifi o cable)?"** (31.0 pp: real 20%
-  vs sintético 50%); la más fácil, **"¿En tu hogar alguien tiene teléfono celular?"** (1.5 pp).
-- Por área: urbano 22.1 pp vs rural 15.7 pp.
-- Entre los dominios con 10+ hogares, el de mayor error es **Costa centro**
-  (26.9 pp) y el de menor error, **Selva**
-  (16.0 pp).
+- En promedio, el % sintético se aleja **14.8 pp** del real a nivel nacional.
+- La pregunta más difícil para la IA fue **"¿Tu hogar tiene internet fijo (wifi o cable)?"** (31.5 pp: real 27%
+  vs sintético 58%); la más fácil, **"¿En tu hogar alguien tiene teléfono celular?"** (0.5 pp).
+- Por área: urbano 18.1 pp vs rural 18.6 pp.
+- Entre los dominios con 10+ hogares, el de mayor error es **Sierra norte**
+  (18.3 pp) y el de menor error, **Lima Metropolitana**
+  (12.7 pp).
 - Sesgo (diferencias de más de 5 pp): la IA **sobreestima** internet fijo, TV cable y cocina a gas y **subestima** agua de red pública.
 
 ## Limitaciones
 
-- 400 hogares: 9 de los 25 departamentos tienen menos de 10 casos, así que su error es ruidoso.
+- 400 hogares: 10 de los 25 departamentos tienen menos de 10 casos, así que su error es ruidoso.
   El mapa de la app muestra el n de cada departamento.
 - Son preguntas de **tenencia de servicios**, que la ficha del hogar ayuda a predecir. Preguntas de opinión,
   intención de compra o precios pueden tener errores distintos; este número es una referencia, no una garantía.
 - Un solo modelo (`gemini-3.5-flash-lite`) y una sola corrida (temperatura 1.0).
 
-Costo de la validación (tokens reales de cada llamada): 80 llamadas, 187,067 tokens
-de entrada y 93,112 de salida ≈ S/ 0.98 a precio pagado (S/ 0 en el plan gratuito).
+Costo de la validación (tokens reales de cada llamada): 80 llamadas, 185,669 tokens
+de entrada y 93,459 de salida ≈ S/ 0.98 a precio pagado (S/ 0 en el plan gratuito).

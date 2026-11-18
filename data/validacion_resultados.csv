@@ -1,6 +1,6 @@
 pregunta,n,pct_real,pct_sintetico,error_pp,accuracy,pct_real_enaho,texto_pregunta,variable_enaho,llamadas,tokens_entrada,tokens_salida,costo_soles
-celular,400.0,92.25,93.75,1.5,93.0,94.08,¿En tu hogar alguien tiene teléfono celular?,p1142,16,37479,18502,0.1955
-internet_fijo,400.0,19.5,50.5,31.0,63.5,20.37,¿Tu hogar tiene internet fijo (wifi o cable)?,p114b1,16,37511,18680,0.197
-tv_cable,400.0,23.0,48.0,25.0,61.0,24.73,¿Tu hogar tiene TV por cable o satelital?,p1143,16,37527,18555,0.196
-agua_red,400.0,83.5,68.5,15.0,67.0,84.04,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,p110,16,37703,18823,0.1985
-gas,391.0,67.01,77.75,10.74,78.52,69.54,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,p113a,16,36847,18552,0.1953
+celular,400.0,96.5,96.0,0.5,95.0,95.36,¿En tu hogar alguien tiene teléfono celular?,p1142,16,37134,18274,0.1932
+internet_fijo,400.0,27.0,58.5,31.5,61.5,27.79,¿Tu hogar tiene internet fijo (wifi o cable)?,p114b1,16,37166,18900,0.1986
+tv_cable,400.0,30.25,55.25,25.0,59.5,29.96,¿Tu hogar tiene TV por cable o satelital?,p1143,16,37182,18582,0.1959
+agua_red,400.0,87.75,77.5,10.25,77.75,87.29,¿El agua de tu hogar viene principalmente de la red pública (caño dentro de la casa o del edificio)?,p110,16,37358,19055,0.2001
+gas,395.0,77.47,84.3,6.84,86.58,76.42,¿En tu hogar cocinan principalmente con gas (balón o gas natural)?,p113a,16,36829,18648,0.1961

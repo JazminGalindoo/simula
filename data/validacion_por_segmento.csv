@@ -1,217 +1,217 @@
 tipo,segmento,departamento_cod,pregunta,n,pct_real,pct_sintetico,error_pp,accuracy
-Nacional,Todo el Perú,,celular,400.0,92.25,93.75,1.5,93.0
-Nacional,Todo el Perú,,internet_fijo,400.0,19.5,50.5,31.0,63.5
-Nacional,Todo el Perú,,tv_cable,400.0,23.0,48.0,25.0,61.0
-Nacional,Todo el Perú,,agua_red,400.0,83.5,68.5,15.0,67.0
-Nacional,Todo el Perú,,gas,391.0,67.01,77.75,10.74,78.52
-Área,Rural,,celular,122.0,82.79,82.79,0.0,86.89
-Área,Urbano,,celular,278.0,96.4,98.56,2.16,95.68
-Área,Rural,,internet_fijo,122.0,4.1,3.28,0.82,94.26
-Área,Urbano,,internet_fijo,278.0,26.26,71.22,44.96,50.0
-Área,Rural,,tv_cable,122.0,10.66,6.56,4.1,87.7
-Área,Urbano,,tv_cable,278.0,28.42,66.19,37.77,49.28
-Área,Rural,,agua_red,122.0,75.41,2.46,72.95,27.05
-Área,Urbano,,agua_red,278.0,87.05,97.48,10.43,84.53
-Área,Rural,,gas,119.0,28.57,29.41,0.84,67.23
-Área,Urbano,,gas,272.0,83.82,98.9,15.07,83.46
-Dominio,Costa norte,,celular,61.0,91.8,96.72,4.92,88.52
-Dominio,Selva,,celular,74.0,93.24,95.95,2.7,94.59
-Dominio,Lima Metropolitana,,celular,60.0,98.33,100.0,1.67,98.33
-Dominio,Sierra centro,,celular,70.0,94.29,92.86,1.43,92.86
-Dominio,Sierra sur,,celular,62.0,83.87,87.1,3.23,93.55
-Dominio,Costa centro,,celular,29.0,100.0,100.0,0.0,100.0
-Dominio,Sierra norte,,celular,35.0,82.86,80.0,2.86,80.0
+Nacional,Todo el Perú,,celular,400.0,96.5,96.0,0.5,95.0
+Nacional,Todo el Perú,,internet_fijo,400.0,27.0,58.5,31.5,61.5
+Nacional,Todo el Perú,,tv_cable,400.0,30.25,55.25,25.0,59.5
+Nacional,Todo el Perú,,agua_red,400.0,87.75,77.5,10.25,77.75
+Nacional,Todo el Perú,,gas,395.0,77.47,84.3,6.84,86.58
+Área,Rural,,celular,83.0,92.77,81.93,10.84,86.75
+Área,Urbano,,celular,317.0,97.48,99.68,2.21,97.16
+Área,Rural,,internet_fijo,83.0,4.82,4.82,0.0,92.77
+Área,Urbano,,internet_fijo,317.0,32.81,72.56,39.75,53.31
+Área,Rural,,tv_cable,83.0,14.46,7.23,7.23,80.72
+Área,Urbano,,tv_cable,317.0,34.38,67.82,33.44,53.94
+Área,Rural,,agua_red,83.0,72.29,1.2,71.08,28.92
+Área,Urbano,,agua_red,317.0,91.8,97.48,5.68,90.54
+Área,Rural,,gas,82.0,31.71,28.05,3.66,71.95
+Área,Urbano,,gas,313.0,89.46,99.04,9.58,90.42
+Dominio,Sierra sur,,celular,53.0,98.11,96.23,1.89,94.34
+Dominio,Lima Metropolitana,,celular,120.0,97.5,100.0,2.5,97.5
+Dominio,Sierra centro,,celular,62.0,93.55,91.94,1.61,91.94
+Dominio,Costa norte,,celular,55.0,100.0,100.0,0.0,100.0
+Dominio,Selva,,celular,54.0,88.89,87.04,1.85,87.04
+Dominio,Sierra norte,,celular,23.0,100.0,91.3,8.7,91.3
+Dominio,Costa centro,,celular,24.0,100.0,100.0,0.0,100.0
 Dominio,Costa sur,,celular,9.0,100.0,100.0,0.0,100.0
-Dominio,Costa norte,,internet_fijo,61.0,21.31,54.1,32.79,54.1
-Dominio,Selva,,internet_fijo,74.0,8.11,45.95,37.84,62.16
-Dominio,Lima Metropolitana,,internet_fijo,60.0,41.67,80.0,38.33,55.0
-Dominio,Sierra centro,,internet_fijo,70.0,10.0,30.0,20.0,74.29
-Dominio,Sierra sur,,internet_fijo,62.0,17.74,40.32,22.58,70.97
-Dominio,Costa centro,,internet_fijo,29.0,34.48,89.66,55.17,37.93
-Dominio,Sierra norte,,internet_fijo,35.0,8.57,25.71,17.14,82.86
-Dominio,Costa sur,,internet_fijo,9.0,33.33,66.67,33.33,66.67
-Dominio,Costa norte,,tv_cable,61.0,29.51,52.46,22.95,47.54
-Dominio,Selva,,tv_cable,74.0,39.19,50.0,10.81,62.16
-Dominio,Lima Metropolitana,,tv_cable,60.0,38.33,75.0,36.67,53.33
-Dominio,Sierra centro,,tv_cable,70.0,8.57,22.86,14.29,77.14
-Dominio,Sierra sur,,tv_cable,62.0,8.06,37.1,29.03,64.52
-Dominio,Costa centro,,tv_cable,29.0,27.59,86.21,58.62,34.48
-Dominio,Sierra norte,,tv_cable,35.0,2.86,22.86,20.0,80.0
-Dominio,Costa sur,,tv_cable,9.0,22.22,66.67,44.44,55.56
-Dominio,Costa norte,,agua_red,61.0,86.89,85.25,1.64,72.13
-Dominio,Selva,,agua_red,74.0,81.08,62.16,18.92,64.86
-Dominio,Lima Metropolitana,,agua_red,60.0,86.67,98.33,11.67,85.0
-Dominio,Sierra centro,,agua_red,70.0,91.43,54.29,37.14,62.86
-Dominio,Sierra sur,,agua_red,62.0,74.19,51.61,22.58,58.06
-Dominio,Costa centro,,agua_red,29.0,75.86,93.1,17.24,75.86
-Dominio,Sierra norte,,agua_red,35.0,88.57,34.29,54.29,45.71
-Dominio,Costa sur,,agua_red,9.0,66.67,88.89,22.22,77.78
-Dominio,Costa norte,,gas,60.0,75.0,93.33,18.33,75.0
-Dominio,Selva,,gas,72.0,63.89,73.61,9.72,62.5
-Dominio,Lima Metropolitana,,gas,58.0,94.83,100.0,5.17,94.83
-Dominio,Sierra centro,,gas,69.0,52.17,66.67,14.49,76.81
-Dominio,Sierra sur,,gas,62.0,51.61,62.9,11.29,79.03
-Dominio,Costa centro,,gas,28.0,96.43,100.0,3.57,96.43
-Dominio,Sierra norte,,gas,33.0,36.36,45.45,9.09,72.73
-Dominio,Costa sur,,gas,9.0,100.0,100.0,0.0,100.0
-Departamento,Piura,20,celular,18.0,88.89,94.44,5.56,94.44
-Departamento,Cajamarca,06,celular,33.0,87.88,84.85,3.03,84.85
-Departamento,Callao,07,celular,7.0,85.71,100.0,14.29,85.71
-Departamento,Junín,12,celular,34.0,91.18,94.12,2.94,91.18
-Departamento,Lima,15,celular,64.0,100.0,100.0,0.0,100.0
-Departamento,La Libertad,13,celular,23.0,95.65,95.65,0.0,91.3
-Departamento,Tumbes,24,celular,6.0,66.67,100.0,33.33,66.67
-Departamento,Cusco,08,celular,28.0,82.14,89.29,7.14,92.86
-Departamento,Ayacucho,05,celular,14.0,100.0,92.86,7.14,92.86
-Departamento,Áncash,02,celular,17.0,100.0,100.0,0.0,100.0
-Departamento,Puno,21,celular,16.0,75.0,81.25,6.25,93.75
-Departamento,Moquegua,18,celular,2.0,100.0,100.0,0.0,100.0
-Departamento,San Martín,22,celular,23.0,91.3,100.0,8.7,91.3
-Departamento,Lambayeque,14,celular,18.0,88.89,94.44,5.56,83.33
-Departamento,Amazonas,01,celular,5.0,100.0,80.0,20.0,80.0
-Departamento,Huánuco,10,celular,16.0,93.75,87.5,6.25,93.75
-Departamento,Loreto,16,celular,16.0,81.25,87.5,6.25,93.75
-Departamento,Ica,11,celular,12.0,100.0,100.0,0.0,100.0
+Dominio,Sierra sur,,internet_fijo,53.0,16.98,47.17,30.19,66.04
+Dominio,Lima Metropolitana,,internet_fijo,120.0,52.5,74.17,21.67,63.33
+Dominio,Sierra centro,,internet_fijo,62.0,3.23,33.87,30.65,69.35
+Dominio,Costa norte,,internet_fijo,55.0,18.18,69.09,50.91,45.45
+Dominio,Selva,,internet_fijo,54.0,16.67,59.26,42.59,50.0
+Dominio,Sierra norte,,internet_fijo,23.0,8.7,30.43,21.74,69.57
+Dominio,Costa centro,,internet_fijo,24.0,37.5,70.83,33.33,66.67
+Dominio,Costa sur,,internet_fijo,9.0,44.44,55.56,11.11,88.89
+Dominio,Sierra sur,,tv_cable,53.0,13.21,41.51,28.3,64.15
+Dominio,Lima Metropolitana,,tv_cable,120.0,42.5,75.0,32.5,52.5
+Dominio,Sierra centro,,tv_cable,62.0,19.35,27.42,8.06,79.03
+Dominio,Costa norte,,tv_cable,55.0,32.73,61.82,29.09,49.09
+Dominio,Selva,,tv_cable,54.0,37.04,55.56,18.52,59.26
+Dominio,Sierra norte,,tv_cable,23.0,8.7,26.09,17.39,73.91
+Dominio,Costa centro,,tv_cable,24.0,37.5,70.83,33.33,41.67
+Dominio,Costa sur,,tv_cable,9.0,22.22,55.56,33.33,66.67
+Dominio,Sierra sur,,agua_red,53.0,83.02,67.92,15.09,69.81
+Dominio,Lima Metropolitana,,agua_red,120.0,93.33,99.17,5.83,94.17
+Dominio,Sierra centro,,agua_red,62.0,88.71,48.39,40.32,56.45
+Dominio,Costa norte,,agua_red,55.0,90.91,90.91,0.0,85.45
+Dominio,Selva,,agua_red,54.0,74.07,64.81,9.26,68.52
+Dominio,Sierra norte,,agua_red,23.0,86.96,52.17,34.78,65.22
+Dominio,Costa centro,,agua_red,24.0,100.0,87.5,12.5,87.5
+Dominio,Costa sur,,agua_red,9.0,66.67,77.78,11.11,66.67
+Dominio,Sierra sur,,gas,53.0,75.47,79.25,3.77,81.13
+Dominio,Lima Metropolitana,,gas,119.0,99.16,100.0,0.84,99.16
+Dominio,Sierra centro,,gas,61.0,49.18,59.02,9.84,77.05
+Dominio,Costa norte,,gas,54.0,85.19,96.3,11.11,85.19
+Dominio,Selva,,gas,53.0,58.49,73.58,15.09,77.36
+Dominio,Sierra norte,,gas,23.0,52.17,60.87,8.7,73.91
+Dominio,Costa centro,,gas,23.0,91.3,95.65,4.35,95.65
+Dominio,Costa sur,,gas,9.0,88.89,100.0,11.11,88.89
 Departamento,Arequipa,04,celular,14.0,100.0,100.0,0.0,100.0
-Departamento,Ucayali,25,celular,7.0,100.0,100.0,0.0,100.0
+Departamento,Puno,21,celular,23.0,100.0,95.65,4.35,95.65
+Departamento,Lima,15,celular,117.0,97.44,100.0,2.56,97.44
+Departamento,Junín,12,celular,24.0,91.67,100.0,8.33,91.67
+Departamento,La Libertad,13,celular,26.0,100.0,100.0,0.0,100.0
+Departamento,Callao,07,celular,15.0,100.0,100.0,0.0,100.0
+Departamento,Ayacucho,05,celular,8.0,87.5,87.5,0.0,100.0
+Departamento,Huánuco,10,celular,14.0,92.86,85.71,7.14,92.86
+Departamento,Loreto,16,celular,16.0,62.5,81.25,18.75,81.25
+Departamento,Cusco,08,celular,12.0,91.67,100.0,8.33,91.67
+Departamento,Cajamarca,06,celular,19.0,100.0,78.95,21.05,78.95
+Departamento,Huancavelica,09,celular,6.0,100.0,83.33,16.67,83.33
+Departamento,Áncash,02,celular,17.0,100.0,94.12,5.88,94.12
+Departamento,Lambayeque,14,celular,17.0,100.0,100.0,0.0,100.0
+Departamento,Amazonas,01,celular,7.0,100.0,85.71,14.29,85.71
+Departamento,Ica,11,celular,8.0,100.0,100.0,0.0,100.0
+Departamento,San Martín,22,celular,12.0,100.0,91.67,8.33,91.67
+Departamento,Pasco,19,celular,3.0,100.0,100.0,0.0,100.0
 Departamento,Madre de Dios,17,celular,2.0,100.0,100.0,0.0,100.0
-Departamento,Apurímac,03,celular,8.0,87.5,75.0,12.5,87.5
-Departamento,Huancavelica,09,celular,10.0,100.0,90.0,10.0,90.0
+Departamento,Ucayali,25,celular,11.0,100.0,100.0,0.0,100.0
+Departamento,Moquegua,18,celular,3.0,100.0,100.0,0.0,100.0
+Departamento,Tumbes,24,celular,2.0,100.0,100.0,0.0,100.0
+Departamento,Apurímac,03,celular,4.0,100.0,75.0,25.0,75.0
+Departamento,Piura,20,celular,14.0,100.0,100.0,0.0,100.0
 Departamento,Tacna,23,celular,6.0,100.0,100.0,0.0,100.0
-Departamento,Pasco,19,celular,1.0,100.0,100.0,0.0,100.0
-Departamento,Piura,20,internet_fijo,18.0,5.56,50.0,44.44,55.56
-Departamento,Cajamarca,06,internet_fijo,33.0,6.06,21.21,15.15,84.85
-Departamento,Callao,07,internet_fijo,7.0,42.86,85.71,42.86,57.14
-Departamento,Junín,12,internet_fijo,34.0,17.65,44.12,26.47,61.76
-Departamento,Lima,15,internet_fijo,64.0,37.5,81.25,43.75,50.0
-Departamento,La Libertad,13,internet_fijo,23.0,26.09,56.52,30.43,60.87
-Departamento,Tumbes,24,internet_fijo,6.0,16.67,33.33,16.67,50.0
-Departamento,Cusco,08,internet_fijo,28.0,7.14,42.86,35.71,64.29
-Departamento,Ayacucho,05,internet_fijo,14.0,0.0,21.43,21.43,78.57
-Departamento,Áncash,02,internet_fijo,17.0,23.53,47.06,23.53,76.47
-Departamento,Puno,21,internet_fijo,16.0,12.5,37.5,25.0,75.0
-Departamento,Moquegua,18,internet_fijo,2.0,50.0,50.0,0.0,100.0
-Departamento,San Martín,22,internet_fijo,23.0,13.04,60.87,47.83,52.17
-Departamento,Lambayeque,14,internet_fijo,18.0,33.33,61.11,27.78,50.0
-Departamento,Amazonas,01,internet_fijo,5.0,0.0,20.0,20.0,80.0
-Departamento,Huánuco,10,internet_fijo,16.0,0.0,6.25,6.25,93.75
-Departamento,Loreto,16,internet_fijo,16.0,0.0,37.5,37.5,62.5
-Departamento,Ica,11,internet_fijo,12.0,33.33,75.0,41.67,41.67
-Departamento,Arequipa,04,internet_fijo,14.0,50.0,64.29,14.29,57.14
-Departamento,Ucayali,25,internet_fijo,7.0,28.57,71.43,42.86,57.14
-Departamento,Madre de Dios,17,internet_fijo,2.0,50.0,100.0,50.0,50.0
-Departamento,Apurímac,03,internet_fijo,8.0,0.0,12.5,12.5,87.5
-Departamento,Huancavelica,09,internet_fijo,10.0,10.0,40.0,30.0,70.0
-Departamento,Tacna,23,internet_fijo,6.0,33.33,66.67,33.33,66.67
-Departamento,Pasco,19,internet_fijo,1.0,0.0,100.0,100.0,0.0
-Departamento,Piura,20,tv_cable,18.0,27.78,44.44,16.67,38.89
-Departamento,Cajamarca,06,tv_cable,33.0,6.06,21.21,15.15,78.79
-Departamento,Callao,07,tv_cable,7.0,57.14,100.0,42.86,57.14
-Departamento,Junín,12,tv_cable,34.0,14.71,47.06,32.35,55.88
-Departamento,Lima,15,tv_cable,64.0,31.25,75.0,43.75,46.88
-Departamento,La Libertad,13,tv_cable,23.0,34.78,52.17,17.39,56.52
-Departamento,Tumbes,24,tv_cable,6.0,16.67,33.33,16.67,83.33
-Departamento,Cusco,08,tv_cable,28.0,17.86,42.86,25.0,75.0
-Departamento,Ayacucho,05,tv_cable,14.0,7.14,21.43,14.29,85.71
-Departamento,Áncash,02,tv_cable,17.0,11.76,47.06,35.29,64.71
-Departamento,Puno,21,tv_cable,16.0,6.25,31.25,25.0,62.5
-Departamento,Moquegua,18,tv_cable,2.0,50.0,50.0,0.0,100.0
-Departamento,San Martín,22,tv_cable,23.0,60.87,56.52,4.35,78.26
-Departamento,Lambayeque,14,tv_cable,18.0,27.78,66.67,38.89,38.89
-Departamento,Amazonas,01,tv_cable,5.0,20.0,20.0,0.0,60.0
-Departamento,Huánuco,10,tv_cable,16.0,12.5,0.0,12.5,87.5
-Departamento,Loreto,16,tv_cable,16.0,25.0,43.75,18.75,56.25
-Departamento,Ica,11,tv_cable,12.0,41.67,66.67,25.0,58.33
-Departamento,Arequipa,04,tv_cable,14.0,7.14,64.29,57.14,42.86
-Departamento,Ucayali,25,tv_cable,7.0,28.57,57.14,28.57,42.86
-Departamento,Madre de Dios,17,tv_cable,2.0,0.0,100.0,100.0,0.0
-Departamento,Apurímac,03,tv_cable,8.0,12.5,12.5,0.0,75.0
-Departamento,Huancavelica,09,tv_cable,10.0,10.0,20.0,10.0,70.0
-Departamento,Tacna,23,tv_cable,6.0,16.67,66.67,50.0,50.0
-Departamento,Pasco,19,tv_cable,1.0,0.0,0.0,0.0,100.0
-Departamento,Piura,20,agua_red,18.0,77.78,72.22,5.56,50.0
-Departamento,Cajamarca,06,agua_red,33.0,87.88,30.3,57.58,42.42
-Departamento,Callao,07,agua_red,7.0,85.71,100.0,14.29,85.71
-Departamento,Junín,12,agua_red,34.0,97.06,70.59,26.47,67.65
-Departamento,Lima,15,agua_red,64.0,87.5,96.88,9.38,84.38
-Departamento,La Libertad,13,agua_red,23.0,91.3,91.3,0.0,82.61
-Departamento,Tumbes,24,agua_red,6.0,100.0,83.33,16.67,83.33
-Departamento,Cusco,08,agua_red,28.0,85.71,50.0,35.71,64.29
-Departamento,Ayacucho,05,agua_red,14.0,92.86,50.0,42.86,57.14
-Departamento,Áncash,02,agua_red,17.0,76.47,52.94,23.53,41.18
-Departamento,Puno,21,agua_red,16.0,56.25,37.5,18.75,56.25
-Departamento,Moquegua,18,agua_red,2.0,100.0,50.0,50.0,50.0
-Departamento,San Martín,22,agua_red,23.0,78.26,69.57,8.7,73.91
-Departamento,Lambayeque,14,agua_red,18.0,88.89,83.33,5.56,72.22
-Departamento,Amazonas,01,agua_red,5.0,100.0,60.0,40.0,60.0
-Departamento,Huánuco,10,agua_red,16.0,75.0,43.75,31.25,68.75
-Departamento,Loreto,16,agua_red,16.0,56.25,62.5,6.25,68.75
-Departamento,Ica,11,agua_red,12.0,66.67,83.33,16.67,83.33
-Departamento,Arequipa,04,agua_red,14.0,64.29,85.71,21.43,64.29
-Departamento,Ucayali,25,agua_red,7.0,100.0,85.71,14.29,85.71
+Departamento,Arequipa,04,internet_fijo,14.0,50.0,71.43,21.43,64.29
+Departamento,Puno,21,internet_fijo,23.0,4.35,30.43,26.09,73.91
+Departamento,Lima,15,internet_fijo,117.0,49.57,73.5,23.93,64.1
+Departamento,Junín,12,internet_fijo,24.0,16.67,54.17,37.5,54.17
+Departamento,La Libertad,13,internet_fijo,26.0,19.23,57.69,38.46,53.85
+Departamento,Callao,07,internet_fijo,15.0,53.33,60.0,6.67,66.67
+Departamento,Ayacucho,05,internet_fijo,8.0,0.0,0.0,0.0,100.0
+Departamento,Huánuco,10,internet_fijo,14.0,7.14,42.86,35.71,64.29
+Departamento,Loreto,16,internet_fijo,16.0,0.0,43.75,43.75,56.25
+Departamento,Cusco,08,internet_fijo,12.0,8.33,58.33,50.0,50.0
+Departamento,Cajamarca,06,internet_fijo,19.0,0.0,26.32,26.32,73.68
+Departamento,Huancavelica,09,internet_fijo,6.0,0.0,16.67,16.67,83.33
+Departamento,Áncash,02,internet_fijo,17.0,17.65,47.06,29.41,70.59
+Departamento,Lambayeque,14,internet_fijo,17.0,23.53,88.24,64.71,23.53
+Departamento,Amazonas,01,internet_fijo,7.0,14.29,28.57,14.29,85.71
+Departamento,Ica,11,internet_fijo,8.0,37.5,87.5,50.0,50.0
+Departamento,San Martín,22,internet_fijo,12.0,33.33,75.0,41.67,58.33
+Departamento,Pasco,19,internet_fijo,3.0,0.0,66.67,66.67,33.33
+Departamento,Madre de Dios,17,internet_fijo,2.0,50.0,50.0,0.0,0.0
+Departamento,Ucayali,25,internet_fijo,11.0,9.09,81.82,72.73,27.27
+Departamento,Moquegua,18,internet_fijo,3.0,33.33,66.67,33.33,66.67
+Departamento,Tumbes,24,internet_fijo,2.0,0.0,50.0,50.0,50.0
+Departamento,Apurímac,03,internet_fijo,4.0,25.0,50.0,25.0,75.0
+Departamento,Piura,20,internet_fijo,14.0,14.29,57.14,42.86,57.14
+Departamento,Tacna,23,internet_fijo,6.0,33.33,33.33,0.0,100.0
+Departamento,Arequipa,04,tv_cable,14.0,28.57,64.29,35.71,50.0
+Departamento,Puno,21,tv_cable,23.0,8.7,21.74,13.04,78.26
+Departamento,Lima,15,tv_cable,117.0,45.3,74.36,29.06,52.14
+Departamento,Junín,12,tv_cable,24.0,4.17,45.83,41.67,58.33
+Departamento,La Libertad,13,tv_cable,26.0,23.08,53.85,30.77,46.15
+Departamento,Callao,07,tv_cable,15.0,26.67,60.0,33.33,53.33
+Departamento,Ayacucho,05,tv_cable,8.0,12.5,0.0,12.5,87.5
+Departamento,Huánuco,10,tv_cable,14.0,28.57,42.86,14.29,85.71
+Departamento,Loreto,16,tv_cable,16.0,43.75,43.75,0.0,50.0
+Departamento,Cusco,08,tv_cable,12.0,0.0,50.0,50.0,50.0
+Departamento,Cajamarca,06,tv_cable,19.0,10.53,21.05,10.53,78.95
+Departamento,Huancavelica,09,tv_cable,6.0,33.33,16.67,16.67,83.33
+Departamento,Áncash,02,tv_cable,17.0,29.41,41.18,11.76,76.47
+Departamento,Lambayeque,14,tv_cable,17.0,35.29,76.47,41.18,58.82
+Departamento,Amazonas,01,tv_cable,7.0,14.29,28.57,14.29,85.71
+Departamento,Ica,11,tv_cable,8.0,25.0,87.5,62.5,37.5
+Departamento,San Martín,22,tv_cable,12.0,33.33,66.67,33.33,66.67
+Departamento,Pasco,19,tv_cable,3.0,66.67,33.33,33.33,66.67
+Departamento,Madre de Dios,17,tv_cable,2.0,50.0,0.0,50.0,50.0
+Departamento,Ucayali,25,tv_cable,11.0,45.45,81.82,36.36,45.45
+Departamento,Moquegua,18,tv_cable,3.0,0.0,66.67,66.67,33.33
+Departamento,Tumbes,24,tv_cable,2.0,0.0,50.0,50.0,50.0
+Departamento,Apurímac,03,tv_cable,4.0,25.0,75.0,50.0,50.0
+Departamento,Piura,20,tv_cable,14.0,42.86,50.0,7.14,50.0
+Departamento,Tacna,23,tv_cable,6.0,33.33,33.33,0.0,100.0
+Departamento,Arequipa,04,agua_red,14.0,92.86,85.71,7.14,78.57
+Departamento,Puno,21,agua_red,23.0,65.22,52.17,13.04,52.17
+Departamento,Lima,15,agua_red,117.0,92.31,94.87,2.56,90.6
+Departamento,Junín,12,agua_red,24.0,91.67,75.0,16.67,75.0
+Departamento,La Libertad,13,agua_red,26.0,96.15,88.46,7.69,84.62
+Departamento,Callao,07,agua_red,15.0,100.0,100.0,0.0,100.0
+Departamento,Ayacucho,05,agua_red,8.0,100.0,50.0,50.0,50.0
+Departamento,Huánuco,10,agua_red,14.0,71.43,42.86,28.57,71.43
+Departamento,Loreto,16,agua_red,16.0,37.5,50.0,12.5,62.5
+Departamento,Cusco,08,agua_red,12.0,100.0,91.67,8.33,91.67
+Departamento,Cajamarca,06,agua_red,19.0,89.47,52.63,36.84,63.16
+Departamento,Huancavelica,09,agua_red,6.0,83.33,0.0,83.33,16.67
+Departamento,Áncash,02,agua_red,17.0,100.0,58.82,41.18,58.82
+Departamento,Lambayeque,14,agua_red,17.0,82.35,94.12,11.76,88.24
+Departamento,Amazonas,01,agua_red,7.0,85.71,28.57,57.14,42.86
+Departamento,Ica,11,agua_red,8.0,100.0,100.0,0.0,100.0
+Departamento,San Martín,22,agua_red,12.0,100.0,75.0,25.0,75.0
+Departamento,Pasco,19,agua_red,3.0,100.0,100.0,0.0,100.0
 Departamento,Madre de Dios,17,agua_red,2.0,100.0,100.0,0.0,100.0
-Departamento,Apurímac,03,agua_red,8.0,100.0,50.0,50.0,50.0
-Departamento,Huancavelica,09,agua_red,10.0,100.0,40.0,60.0,40.0
-Departamento,Tacna,23,agua_red,6.0,50.0,83.33,33.33,66.67
-Departamento,Pasco,19,agua_red,1.0,100.0,100.0,0.0,100.0
-Departamento,Piura,20,gas,17.0,58.82,94.12,35.29,64.71
-Departamento,Cajamarca,06,gas,32.0,34.38,40.62,6.25,68.75
-Departamento,Callao,07,gas,7.0,100.0,100.0,0.0,100.0
-Departamento,Junín,12,gas,33.0,72.73,81.82,9.09,78.79
-Departamento,Lima,15,gas,61.0,93.44,100.0,6.56,93.44
-Departamento,La Libertad,13,gas,23.0,86.96,91.3,4.35,78.26
-Departamento,Tumbes,24,gas,6.0,83.33,100.0,16.67,83.33
-Departamento,Cusco,08,gas,28.0,46.43,64.29,17.86,75.0
-Departamento,Ayacucho,05,gas,14.0,42.86,57.14,14.29,71.43
-Departamento,Áncash,02,gas,17.0,58.82,76.47,17.65,82.35
-Departamento,Puno,21,gas,16.0,43.75,50.0,6.25,93.75
-Departamento,Moquegua,18,gas,2.0,100.0,100.0,0.0,100.0
-Departamento,San Martín,22,gas,22.0,63.64,86.36,22.73,59.09
-Departamento,Lambayeque,14,gas,17.0,70.59,88.24,17.65,82.35
-Departamento,Amazonas,01,gas,5.0,60.0,60.0,0.0,60.0
-Departamento,Huánuco,10,gas,15.0,66.67,53.33,13.33,86.67
-Departamento,Loreto,16,gas,16.0,50.0,68.75,18.75,56.25
-Departamento,Ica,11,gas,12.0,91.67,100.0,8.33,91.67
-Departamento,Arequipa,04,gas,14.0,92.86,85.71,7.14,92.86
-Departamento,Ucayali,25,gas,7.0,85.71,85.71,0.0,71.43
+Departamento,Ucayali,25,agua_red,11.0,81.82,90.91,9.09,72.73
+Departamento,Moquegua,18,agua_red,3.0,66.67,66.67,0.0,100.0
+Departamento,Tumbes,24,agua_red,2.0,50.0,100.0,50.0,50.0
+Departamento,Apurímac,03,agua_red,4.0,100.0,50.0,50.0,50.0
+Departamento,Piura,20,agua_red,14.0,92.86,71.43,21.43,78.57
+Departamento,Tacna,23,agua_red,6.0,66.67,66.67,0.0,66.67
+Departamento,Arequipa,04,gas,14.0,92.86,100.0,7.14,92.86
+Departamento,Puno,21,gas,23.0,65.22,56.52,8.7,73.91
+Departamento,Lima,15,gas,115.0,97.39,98.26,0.87,97.39
+Departamento,Junín,12,gas,24.0,83.33,83.33,0.0,83.33
+Departamento,La Libertad,13,gas,26.0,84.62,100.0,15.38,84.62
+Departamento,Callao,07,gas,15.0,100.0,100.0,0.0,100.0
+Departamento,Ayacucho,05,gas,7.0,28.57,57.14,28.57,71.43
+Departamento,Huánuco,10,gas,14.0,35.71,50.0,14.29,71.43
+Departamento,Loreto,16,gas,15.0,46.67,60.0,13.33,73.33
+Departamento,Cusco,08,gas,12.0,83.33,100.0,16.67,83.33
+Departamento,Cajamarca,06,gas,18.0,50.0,50.0,0.0,77.78
+Departamento,Huancavelica,09,gas,6.0,16.67,16.67,0.0,100.0
+Departamento,Áncash,02,gas,17.0,52.94,64.71,11.76,88.24
+Departamento,Lambayeque,14,gas,17.0,88.24,94.12,5.88,94.12
+Departamento,Amazonas,01,gas,7.0,42.86,28.57,14.29,85.71
+Departamento,Ica,11,gas,8.0,100.0,100.0,0.0,100.0
+Departamento,San Martín,22,gas,12.0,66.67,91.67,25.0,75.0
+Departamento,Pasco,19,gas,3.0,66.67,100.0,33.33,66.67
 Departamento,Madre de Dios,17,gas,2.0,100.0,100.0,0.0,100.0
-Departamento,Apurímac,03,gas,8.0,12.5,62.5,50.0,25.0
-Departamento,Huancavelica,09,gas,10.0,30.0,40.0,10.0,70.0
-Departamento,Tacna,23,gas,6.0,100.0,100.0,0.0,100.0
-Departamento,Pasco,19,gas,1.0,100.0,100.0,0.0,100.0
-Nacional,Todo el Perú,,promedio,400.0,,,16.65,72.6
-Área,Rural,,promedio,122.0,,,15.74,72.63
-Área,Urbano,,promedio,278.0,,,22.08,72.59
-Dominio,Costa norte,,promedio,61.0,,,16.13,67.46
-Dominio,Selva,,promedio,74.0,,,16.0,69.26
-Dominio,Lima Metropolitana,,promedio,60.0,,,18.7,77.3
-Dominio,Sierra centro,,promedio,70.0,,,17.47,76.79
-Dominio,Sierra sur,,promedio,62.0,,,17.74,73.23
-Dominio,Costa centro,,promedio,29.0,,,26.92,68.94
-Dominio,Sierra norte,,promedio,35.0,,,20.68,72.26
-Dominio,Costa sur,,promedio,9.0,,,20.0,80.0
-Departamento,Piura,20,promedio,18.0,,,21.5,60.72
-Departamento,Cajamarca,06,promedio,33.0,,,19.43,71.93
-Departamento,Callao,07,promedio,7.0,,,22.86,77.14
-Departamento,Junín,12,promedio,34.0,,,19.47,71.05
-Departamento,Lima,15,promedio,64.0,,,20.69,74.94
-Departamento,La Libertad,13,promedio,23.0,,,10.43,73.91
-Departamento,Tumbes,24,promedio,6.0,,,20.0,73.33
-Departamento,Cusco,08,promedio,28.0,,,24.29,74.29
-Departamento,Ayacucho,05,promedio,14.0,,,20.0,77.14
-Departamento,Áncash,02,promedio,17.0,,,20.0,72.94
-Departamento,Puno,21,promedio,16.0,,,16.25,76.25
-Departamento,Moquegua,18,promedio,2.0,,,10.0,90.0
-Departamento,San Martín,22,promedio,23.0,,,18.46,70.95
-Departamento,Lambayeque,14,promedio,18.0,,,19.08,65.36
-Departamento,Amazonas,01,promedio,5.0,,,16.0,68.0
-Departamento,Huánuco,10,promedio,16.0,,,13.92,86.08
-Departamento,Loreto,16,promedio,16.0,,,17.5,67.5
-Departamento,Ica,11,promedio,12.0,,,18.33,75.0
-Departamento,Arequipa,04,promedio,14.0,,,20.0,71.43
-Departamento,Ucayali,25,promedio,7.0,,,17.14,71.43
-Departamento,Madre de Dios,17,promedio,2.0,,,30.0,70.0
-Departamento,Apurímac,03,promedio,8.0,,,25.0,65.0
-Departamento,Huancavelica,09,promedio,10.0,,,24.0,68.0
-Departamento,Tacna,23,promedio,6.0,,,23.33,76.67
-Departamento,Pasco,19,promedio,1.0,,,20.0,80.0
+Departamento,Ucayali,25,gas,11.0,63.64,100.0,36.36,63.64
+Departamento,Moquegua,18,gas,3.0,66.67,100.0,33.33,66.67
+Departamento,Tumbes,24,gas,2.0,100.0,100.0,0.0,100.0
+Departamento,Apurímac,03,gas,4.0,75.0,75.0,0.0,100.0
+Departamento,Piura,20,gas,14.0,64.29,85.71,21.43,64.29
+Departamento,Tacna,23,gas,6.0,83.33,100.0,16.67,83.33
+Nacional,Todo el Perú,,promedio,400.0,,,14.82,76.07
+Área,Rural,,promedio,83.0,,,18.56,72.22
+Área,Urbano,,promedio,317.0,,,18.13,77.07
+Dominio,Sierra sur,,promedio,53.0,,,15.85,75.09
+Dominio,Lima Metropolitana,,promedio,120.0,,,12.67,81.33
+Dominio,Sierra centro,,promedio,62.0,,,18.1,74.76
+Dominio,Costa norte,,promedio,55.0,,,18.22,73.04
+Dominio,Selva,,promedio,54.0,,,17.46,68.43
+Dominio,Sierra norte,,promedio,23.0,,,18.26,74.78
+Dominio,Costa centro,,promedio,24.0,,,16.7,78.3
+Dominio,Costa sur,,promedio,9.0,,,13.33,82.22
+Departamento,Arequipa,04,promedio,14.0,,,14.29,77.14
+Departamento,Puno,21,promedio,23.0,,,13.04,74.78
+Departamento,Lima,15,promedio,117.0,,,11.8,80.33
+Departamento,Junín,12,promedio,24.0,,,20.83,72.5
+Departamento,La Libertad,13,promedio,26.0,,,18.46,73.85
+Departamento,Callao,07,promedio,15.0,,,8.0,84.0
+Departamento,Ayacucho,05,promedio,8.0,,,18.21,81.79
+Departamento,Huánuco,10,promedio,14.0,,,20.0,77.14
+Departamento,Loreto,16,promedio,16.0,,,17.67,64.67
+Departamento,Cusco,08,promedio,12.0,,,26.67,73.33
+Departamento,Cajamarca,06,promedio,19.0,,,18.95,74.5
+Departamento,Huancavelica,09,promedio,6.0,,,26.67,73.33
+Departamento,Áncash,02,promedio,17.0,,,20.0,77.65
+Departamento,Lambayeque,14,promedio,17.0,,,24.71,72.94
+Departamento,Amazonas,01,promedio,7.0,,,22.86,77.14
+Departamento,Ica,11,promedio,8.0,,,22.5,77.5
+Departamento,San Martín,22,promedio,12.0,,,26.67,73.33
+Departamento,Pasco,19,promedio,3.0,,,26.67,73.33
+Departamento,Madre de Dios,17,promedio,2.0,,,10.0,70.0
+Departamento,Ucayali,25,promedio,11.0,,,30.91,61.82
+Departamento,Moquegua,18,promedio,3.0,,,26.67,73.33
+Departamento,Tumbes,24,promedio,2.0,,,30.0,70.0
+Departamento,Apurímac,03,promedio,4.0,,,30.0,70.0
+Departamento,Piura,20,promedio,14.0,,,18.57,70.0
+Departamento,Tacna,23,promedio,6.0,,,3.33,90.0
